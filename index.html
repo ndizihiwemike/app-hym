@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Number Button App</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    color: white;
+    background-color: midnightblue;
+    margin-top: 8px;
+  }
+  #output {
+    font-size: 24px;
+    margin: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .number-button {
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    border: 1px solid black;
+    flex: 1;
+    border-radius: 2vh;
+    cursor: pointer;
+  }
+  .button{
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    margin: -5px;
+    color: white;
+    background-color: maroon;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .button :hover{
+    color: aqua;
+  }
+  .go{
+    font-size: 40px;
+    width: 240px;
+    height: 50px;
+    color: white;
+    background-color: maroon;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .go :hover{
+    color: aqua;
+  }
+  img{
+    width: 50px;
+    margin-top: -4;
+  }
+</style>
+</head>
+<body>
+  <div>
+    <img src="./sda logo.png" alt="">
+    <h1>BRIDGE HYMNAL </h1>
+  </div>
+  <div>
+    <button class="button" onclick=""><b>Adult</b></button>
+    <button class="button" onclick=""><b>Children</b></button>
+  </div>
+  <div id="output" ></div>
+  <div>
+    <button class="number-button" onclick="appendNumber(1)"><b>1</b></button>
+    <button class="number-button" onclick="appendNumber(2)"><b>2</b></button>
+    <button class="number-button" onclick="appendNumber(3)"><b>3</b></button>
+  </div>
+  <div>
+    <button class="number-button" onclick="appendNumber(4)"><b>4</b></button>
+    <button class="number-button" onclick="appendNumber(5)"><b>5</b></button>
+    <button class="number-button" onclick="appendNumber(6)"><b>6</b></button>
+  </div>
+  <div>
+    <button class="number-button" onclick="appendNumber(7)"><b>7</b></button>
+    <button class="number-button" onclick="appendNumber(8)"><b>8</b></button>
+    <button class="number-button" onclick="appendNumber(9)"><b>9</b></button>
+  </div>
+  <div>
+    <button class="number-button" onclick="menubar()"><b><ion-icon name="apps-outline"></ion-icon></b></button>
+    <button class="number-button" onclick="appendNumber(0)">0</button>
+    <button class="number-button" onclick="clearOutput()"><b><ion-icon name="arrow-back-outline"></ion-icon></b></button>
+  </div>
+<button class="go"><b>YIMBA</b></button>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script>
+    const outputElement = document.getElementById("output");
+
+    function appendNumber(number) {
+      outputElement.textContent += number;
+    }
+    function clearOutput() {
+      outputElement.textContent = "";
+    }
+
+    
+  </script>
+</body>
+</html>
