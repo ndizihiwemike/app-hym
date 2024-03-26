@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song to Json</title>
+</head>
+<body>
+    <h1>Song to Json helper</h1>
+    <label>Song No</label>
+    <input type="text" id="songN">
+    <label>Tittle</label>
+    <input type="text" id="songNt">
+    <br><br>
+    <textarea id="song" cols="70" rows="30"></textarea>
+    <button onclick="getJsonData()">Show it</button>
+    <script>
+        var songs = {}
+        function getJsonData(){
+            var num = document.getElementById("songN");
+            var tit = document.getElementById("songNt");
+            var song = document.getElementById("song");
+            songs[num.value] = {song: song.value, title: tit.value}
+            console.log(songs)
+        }
+    </script>
+</body>
+</html>
