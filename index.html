@@ -94,7 +94,7 @@
     <button class="number-button" onclick="appendNumber(9)"><b>9</b></button>
   </div>
   <div>
-    <button id="menu-bar" class="number-button" onclick="menubar(hymn.json)"><b><img src="./menu-bar.jpg" alt=""></b></button>
+    <button id="menu-bar" class="number-button" onclick="menubar()"><b><img src="./menu-bar.jpg" alt=""></b></button>
     <button class="number-button" onclick="appendNumber(0)">0</button>
     <button class="number-button" onclick="clearOutput()"><b><img src="./clear-bar.jpeg" alt=""></b></button>
   </div>
@@ -115,7 +115,18 @@
     function openSong(){
       console.log(product[outputElement.textContent])
     }
+
+  var disSong = document.getElementById('song');
+      for(i=0; i<product.length; i++){
+          for(j in product[i]){
+          var son = `<h3>${j} ${product[i][j].title}</h3>`
+              son += `<pre>${product[i][j].song}</pre>`
+          }
+          // console.log(product[i])
+          disSong.innerHTML += son
+      }
     function menubar(){
+      console.log(product[outputElement.i])
 
     }
     

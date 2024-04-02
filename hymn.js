@@ -3263,34 +3263,34 @@ const product = {
    
 
 
- document.getElementById('searchBar').addEventListener('keyup', (e)=>{
-    const searchData = e.target.value.toLowerCase();
-    const filterData = product.filter((item)=> {
-        // console.log(searchData)
-        return(
-            num.title.toLowerCase().includes(searchData)
-        )
-    })
-    displayitem(filterData)
-  });
+//  document.getElementById('searchBar').addEventListener('keyup', (e)=>{
+//     const searchData = e.target.value.toLowerCase();
+//     const filterData = product.filter((item)=> {
+//         // console.log(searchData)
+//         return(
+//             num.title.toLowerCase().includes(searchData)
+//         )
+//     })
+//     displayitem(filterData)
+//   });
 
 
- const displayitem = (items)=> {
-    document.getElementById('root').innerHTML=items.map((item)=>{
-        var {title, song , num} = item;
-        console.log(title)
-        return(
-            `<div class='box'>
-                <div class="bottom">
-                   <h2>${num}</h2>
-                   <h1>${title}</h1>
+//  const displayitem = (items)=> {
+//     document.getElementById('root').innerHTML=items.map((item)=>{
+//         var {title, song , num} = item;
+//         console.log(title)
+//         return(
+//             `<div class='box'>
+//                 <div class="bottom">
+//                    <h2>${num}</h2>
+//                    <h1>${title}</h1>
                    
-                </div>
-            </div>`
-        )
-    }).join('')
-};
-displayitem(product);
+//                 </div>
+//             </div>`
+//         )
+//     }).join('')
+// };
+// displayitem(product);
 
 
 
