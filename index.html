@@ -36,8 +36,9 @@
     font-size: 20px;
     width: 100px;
     height: 50px;
-    margin: -5px;
+    margin: -3.5px;
     color: white;
+    border-radius: 3vh;
     background-color: maroon;
     border: 1px solid #ccc;
     cursor: pointer;
@@ -50,6 +51,7 @@
     width: 240px;
     height: 50px;
     color: white;
+    border-radius: 5vh;
     background-color: maroon;
     border: 1px solid #ccc;
     cursor: pointer;
@@ -65,12 +67,14 @@
 </style>
 </head>
 <body>
+  <div id="menu">
+    <div id="songd">
   <div>
     <img src="./sda logo.png" alt="">
     <h1>BRIDGE HYMNAL </h1>
   </div>
   <div>
-    <button class="button" onclick=""><b>Adult</b></button>
+    <button id="mybutton" class="button" onclick=""><b>Adult</b></button>
     <button class="button" onclick=""><b>Children</b></button>
   </div>
   <div id="output" ></div>
@@ -90,13 +94,15 @@
     <button class="number-button" onclick="appendNumber(9)"><b>9</b></button>
   </div>
   <div>
-    <button class="number-button" onclick="menubar()"><b><ion-icon name="apps-outline"></ion-icon></b></button>
+    <button id="menu-bar" class="number-button" onclick="menubar(hymn.json)"><b><img src="./menu-bar.jpg" alt=""></b></button>
     <button class="number-button" onclick="appendNumber(0)">0</button>
-    <button class="number-button" onclick="clearOutput()"><b><ion-icon name="arrow-back-outline"></ion-icon></b></button>
+    <button class="number-button" onclick="clearOutput()"><b><img src="./clear-bar.jpeg" alt=""></b></button>
   </div>
-<button class="go"><b>YIMBA</b></button>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<button class="go" onclick="openSong()"><b>YIMBA</b></button>
+</div>
+</div>
+
+<script src="hymn.js"></script>
   <script>
     const outputElement = document.getElementById("output");
 
@@ -106,6 +112,40 @@
     function clearOutput() {
       outputElement.textContent = "";
     }
+    function openSong(){
+      console.log(product[outputElement.textContent])
+    }
+    function menubar(){
+
+    }
+    
+    function changebackgroundColor() {
+      var button = document.getElementById('mybutton');
+      button.style.backgroundColor = '#00FF00';
+    }
+
+
+    document.getElementById('mybutton').addEventListener('onclick', changebackgroundColor);
+
+
+  // const menubar = document.getElementById("menu-bar");
+  // const dataContainer = document.getElementById("hymn.json");
+
+  
+
+  // button.addEventListener("click", function() {
+  //   fetch("hymn.json")
+  //     .then(response => hymn.json())
+  //     .then(data => {
+  //       // Process the JSON data here (e.g., display in container)
+  //       dataContainer.innerHTML = "menubar" + JSON.stringify(data);
+  //     })
+  //     .catch(error => {
+  //       console.error("Error fetching JSON data:", error);
+  //     });
+  // });
+
+
 
     
   </script>

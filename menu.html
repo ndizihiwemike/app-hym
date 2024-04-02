@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box{
+        margin: 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #333;
+        border-radius: 5px;
+        padding: 15px;
+    }
+    </style>
+</head>
+<body>
+    <div class="searchbar">
+        <input type="text" placeholder="search..." id="searchBar" name="searchBar">
+        <i class="fa-solid fa-maginifying-glass glass"></i>
+    </div>
+    <div class="songs" id="song">
+
+    </div>
+    <script src="hymn.js"></script>
+    <script>
+        var disSong = document.getElementById('song');
+        for(i=0; i<product.length; i++){
+            for(j in product[i]){
+            var son = `<h3>${j} ${product[i][j].title}</h3>`
+                son += `<pre>${product[i][j].song}</pre>`
+            }
+            console.log(product[i])
+            disSong.innerHTML += son
+        }
+    </script>
+</body>
+</html>
