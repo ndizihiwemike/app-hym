@@ -16,6 +16,10 @@
     background-color: midnightblue;
     margin-top: 8px;
   }
+  h4{
+    text-align: left;
+    margin-left: 10px;
+  }
   #output {
     font-size: 24px;
     margin: 30px;
@@ -64,6 +68,17 @@
     width: 50px;
     margin-top: -4;
   }
+  .btnM{
+    display: block;
+    margin-top: 5px;
+
+  }
+  .display{
+    display: block;
+  }
+  .hidden{
+    display: none;
+  }
 </style>
 </head>
 <body>
@@ -94,16 +109,363 @@
     <button class="number-button" onclick="appendNumber(9)"><b>9</b></button>
   </div>
   <div>
-    <button id="menu-bar" class="number-button" onclick="menubar()"><b><img src="./menu-bar.jpg" alt=""></b></button>
+    <button id="menu" class="number-button" onclick="hideItems(3)"><b><img src="./menu-bar.jpg" alt=""></b></button>
     <button class="number-button" onclick="appendNumber(0)">0</button>
     <button class="number-button" onclick="clearOutput()"><b><img src="./clear-bar.jpeg" alt=""></b></button>
   </div>
 <button class="go" onclick="openSong()"><b>YIMBA</b></button>
 </div>
 </div>
+<div id="songData" class="hidden">
+
+</div>
+
+<div id="songList" class="hidden">
+  <button onclick="hideItems(2)">menu</button><br>
+  <input type="text" placeholder="search..." id="searchBar" name="searchBar" margin="4px">
+  <button class="btnM" onclick="loadSong(1)">1 Holy Holy Holly</button><button class="btnM" onclick="loadSong(2)">2 Revive Us Again</button>
+  <button class="btnM" onclick="loadSong(3)">3 To God be the Glory</button><button class="btnM" onclick="loadSong(4)">4 All Hail the Power of Jesus‘ Name!</button><button class="btnM" onclick="loadSong(5)">5 O Worship the King</button>
+  <button class="btnM" onclick="loadSong(6)">6 Before Jehovah‘s Awful Throne</button><button class="btnM" onclick="loadSong(7)">7 O God Our Help in Ages Past</button>
+  <button class="btnM" onclick="loadSong(8)">8 Come, Great Deliverer, Come</button><button class="btnM" onclick="loadSong(9)">9 My Maker and My King</button><button class="btnM" onclick="loadSong(10)">10 Come Thou Fount</button>
+  <button class="btnM" onclick="loadSong(11)">11 Blessed Be the Name</button><button class="btnM" onclick="loadSong(12)">12 Praise Go From Whom</button><button class="btnM" onclick="loadSong(13)">13 Jesus Thou Hast Promised</button>
+  <button class="btnM" onclick="loadSong(14)">14 O Let Me Walk With Thee</button><button class="btnM" onclick="loadSong(15)">15 Jesus Shall Reign</button>
+  <button class="btnM" onclick="loadSong(16)">16 Blessed Lord, How Much I Need</button><button class="btnM" onclick="loadSong(17)">17 Not I, but Christ</button>
+  <button class="btnM" onclick="loadSong(18)">18 Saviour , Like a Shepherd</button><button class="btnM" onclick="loadSong(19)">19 Down At The Cross</button><button class="btnM" onclick="loadSong(20)">20 The Lord‘s Our Rock</button>
+  <button class="btnM" onclick="loadSong(21)">21 Father, We come to Thee</button><button class="btnM" onclick="loadSong(22)">22 Pass Me Not</button><button class="btnM" onclick="loadSong(23)">23 Jesus, Thou Joy of Loving Hearts</button>
+  <button class="btnM" onclick="loadSong(24)">24 How Sweet the Name of Jesus Sounds</button><button class="btnM" onclick="loadSong(25)">25 Crown Him With many Crowns</button>
+  <button class="btnM" onclick="loadSong(26)">26 Lord, Dismiss Us With Thy Blessing</button><button class="btnM" onclick="loadSong(27)">27 Saviour Again to Thy Dear Name</button>
+  <button class="btnM" onclick="loadSong(28)">28 Take the Name of Jesus With You</button><button class="btnM" onclick="loadSong(29)">29 My Jesus I Love Thee</button>
+  <button class="btnM" onclick="loadSong(30)">30 Jesus , Lover of My Soul.</button><button class="btnM" onclick="loadSong(31)">31 I wll Sing of Jesus‘ Love</button>
+  <button class="btnM" onclick="loadSong(32)">32 I Have a Song I Love to Sing</button><button class="btnM" onclick="loadSong(33)">33 Nearer, Still Nearer</button>
+  <button class="btnM" onclick="loadSong(34)">34 Tell Me the Story of Jesus</button><button class="btnM" onclick="loadSong(35)">35 Redeemed! How I Love to Proclaim</button>
+  <button class="btnM" onclick="loadSong(36)">36 O Happy Day! That Fixed My</button><button class="btnM" onclick="loadSong(37)">37 Love Divine, All Love Excelling.</button>
+  <button class="btnM" onclick="loadSong(38)">38 I Sing the Mighty Power.</button><button class="btnM" onclick="loadSong(39)">39 Lord, I Hear of Showers of Blessing.</button>
+  <button class="btnM" onclick="loadSong(40)">40 Hover O-er Me, Holy Spirit.</button><button class="btnM" onclick="loadSong(41)">41 Holy Spirit Faithful Guide.</button>
+  <button class="btnM" onclick="loadSong(42)">42 Spirit Divine Attend Our Prayer.</button><button class="btnM" onclick="loadSong(43)">43 What a Fellowship, What a Joy Divine.</button>
+  <button class="btnM" onclick="loadSong(44)">44 No, Not One.</button><button class="btnM" onclick="loadSong(45)">45 There is Sunlight on the Hilltop,</button>
+  <button class="btnM" onclick="loadSong(46)">46 Sitting at the Feet of Jesus.</button><button class="btnM" onclick="loadSong(47)">47 Blest Be the Tie.</button>
+  <button class="btnM" onclick="loadSong(48)">48 I Know I love Thee Better Lord</button><button class="btnM" onclick="loadSong(49)">49 I‘ve Found a Friend.</button><button class="btnM" onclick="loadSong(50)">50 God Be With You.</button>
+  <button class="btnM" onclick="loadSong(51)">51 Blessed Assurance Jesus Is Mine.</button><button class="btnM" onclick="loadSong(52)">52 Give Me the Bible.</button>
+  <button class="btnM" onclick="loadSong(53)">53 I Love to Tell the Story</button><button class="btnM" onclick="loadSong(54)">54 More About Jesus</button><button class="btnM" onclick="loadSong(55)">55 Sowing in the Morning.</button>
+  <button class="btnM" onclick="loadSong(56)">56 Rescue the Perishing</button><button class="btnM" onclick="loadSong(57)">57 Ask Not to be Excused.</button>
+  <button class="btnM" onclick="loadSong(58)">58 Iam Thinking Today of That Beautiful</button><button class="btnM" onclick="loadSong(59)">59 Work for the Night is Coming.</button>
+  <button class="btnM" onclick="loadSong(60)">60 For My Sake and The Gospel Go .</button><button class="btnM" onclick="loadSong(61)">61 I have a Friend so Precious.</button>
+  <button class="btnM" onclick="loadSong(62)">62 Iam Trusting Thee, Lord Jesus.</button><button class="btnM" onclick="loadSong(63)">63 When I Survey The Wondrous Cross.</button>
+  <button class="btnM" onclick="loadSong(64)">64 Watchman, Blow the Gospel Trumpt.</button><button class="btnM" onclick="loadSong(65)">65 Onward Christian Soldiers!</button>
+  <button class="btnM" onclick="loadSong(66)">66 Awake My Soul.</button><button class="btnM" onclick="loadSong(67)">67 My Soul, Be on Thy Guard.</button><button class="btnM" onclick="loadSong(68)">68 Firmly Stand For God</button>
+  <button class="btnM" onclick="loadSong(69)">69 My Hope is Built on Nothing Less.</button><button class="btnM" onclick="loadSong(70)">70 Come We that Love the Lord.</button>
+  <button class="btnM" onclick="loadSong(71)">71 Watch For The Time is Short.</button><button class="btnM" onclick="loadSong(72)">72 We‘ll Build on the Rock.</button>
+  <button class="btnM" onclick="loadSong(73)">73 O For a Heart to Praise my God.</button><button class="btnM" onclick="loadSong(74)">74 Watchman, Tell Me.</button>
+  <button class="btnM" onclick="loadSong(75)">75 How Firm a Foundation.</button><button class="btnM" onclick="loadSong(76)">76 Heir of the Kingdom.</button><button class="btnM" onclick="loadSong(77)">77 Watchmen on the Walls.</button>
+  <button class="btnM" onclick="loadSong(78)">78 How Long O Lord our Saviour.</button><button class="btnM" onclick="loadSong(79)">79 O for a Faith .</button>
+  <button class="btnM" onclick="loadSong(80)">80 O For That Flame of Living Fire.</button><button class="btnM" onclick="loadSong(81)">81 Another Six Day‘s Work.</button>
+  <button class="btnM" onclick="loadSong(82)">82 O Day of Rest and Gladness</button><button class="btnM" onclick="loadSong(83)">83 Sweet Sabbath School.</button>
+  <button class="btnM" onclick="loadSong(84)">84 Don‘t Forget the Sabbath.</button><button class="btnM" onclick="loadSong(85)">85 Safely Through Another Week.</button>
+  <button class="btnM" onclick="loadSong(86)">86 Welcome, Welcome Day of Rest.</button><button class="btnM" onclick="loadSong(87)">87 How Sweet Upon This Sacred Day.</button>
+  <button class="btnM" onclick="loadSong(88)">88 New Every Morning.</button><button class="btnM" onclick="loadSong(89)">89 Lord in the Morning.</button><button class="btnM" onclick="loadSong(90)">90 The Tempter to my Soul.</button>
+  <button class="btnM" onclick="loadSong(91)">91 Abide with Me.</button><button class="btnM" onclick="loadSong(92)">92 Day is Dying in the West.</button><button class="btnM" onclick="loadSong(93)">93 Sun of My Soul.</button>
+  <button class="btnM" onclick="loadSong(94)">94 Far And Near the Fields.</button><button class="btnM" onclick="loadSong(95)">95 We Give Thee But Thine Own *</button>
+  <button class="btnM" onclick="loadSong(96)">96 What Can Wash Away My Sins.</button><button class="btnM" onclick="loadSong(97)">97 I Gave My Life for Thee.</button>
+  <button class="btnM" onclick="loadSong(98)">98 Come to The Saviour, make no Delay.</button><button class="btnM" onclick="loadSong(99)">99 Come Ye Sinners, Poor *</button>
+  <button class="btnM" onclick="loadSong(100)">100 Stand Up, Stand Up for Jesus.</button><button class="btnM" onclick="loadSong(101)">101 Jesus is Tenderly Calling Today.</button>
+  <button class="btnM" onclick="loadSong(102)">102 There‘s Stranger at the Door.</button><button class="btnM" onclick="loadSong(103)">103 Softy and Tenderly.</button>
+  <button class="btnM" onclick="loadSong(104)">104 I Heard the Voice of Jesus Say.</button><button class="btnM" onclick="loadSong(105)">105 Lovingly, Tenderly Calling.</button>
+  <button class="btnM" onclick="loadSong(106)">106 Almost Persuaded.</button><button class="btnM" onclick="loadSong(107)">107 Hark! The Voice Of Jesus calling.</button>
+  <button class="btnM" onclick="loadSong(108)">108 We Have heard a Joyful Sound.</button><button class="btnM" onclick="loadSong(109)">109 Whosoever Heareth.</button>
+  <button class="btnM" onclick="loadSong(110)">110 There is a Gate Ajar.</button><button class="btnM" onclick="loadSong(111)">111 The Great Physician Now is Near.</button>
+  <button class="btnM" onclick="loadSong(112)">112 Art Thou Weary, Art Thou Linguid?</button><button class="btnM" onclick="loadSong(113)">113 There is a Fountain.</button>
+  <button class="btnM" onclick="loadSong(114)">114 Whiter that snow</button><button class="btnM" onclick="loadSong(115)">115 Iam Coming to the Cross.</button>
+  <button class="btnM" onclick="loadSong(116)">116 One Thing I of the Lord Desire</button><button class="btnM" onclick="loadSong(117)">117 Have you Been to Jesus?</button>
+  <button class="btnM" onclick="loadSong(118)">118 I‘ve Wandered Far Away.</button><button class="btnM" onclick="loadSong(119)">119 I Hear The Saviour Say.</button>
+  <button class="btnM" onclick="loadSong(120)">120 esus Keep Me Near the Cross.</button><button class="btnM" onclick="loadSong(121)">121 Chief of Sinners.</button>
+  <button class="btnM" onclick="loadSong(122)">122 All to Jesus I surrender.</button><button class="btnM" onclick="loadSong(123)">123 My Faith Loks Up to thee.</button>
+  <button class="btnM" onclick="loadSong(124)">124 Are You Weary?</button><button class="btnM" onclick="loadSong(125)">125 Come Thou Almighty King.</button><button class="btnM" onclick="loadSong(126)">126 I Need Thee Every Hour.</button>
+  <button class="btnM" onclick="loadSong(127)">127 When Peace Like a River.</button><button class="btnM" onclick="loadSong(128)">128 When We Walk With the Lord.</button>
+  <button class="btnM" onclick="loadSong(129)">129 Tis So Sweet to Trust.</button><button class="btnM" onclick="loadSong(130)">130 0What a Friend We Have in Jesus</button>
+  <button class="btnM" onclick="loadSong(131)">131 Jesus, These Eyes Have Never.</button><button class="btnM" onclick="loadSong(132)">132 The Lord is My Shephered.</button>
+  <button class="btnM" onclick="loadSong(133)">133 Anywhere With Jesus.</button><button class="btnM" onclick="loadSong(134)">134 Take Time to Be Holy.</button><button class="btnM" onclick="loadSong(135)">135 Sweet Hour Prayer.</button>
+  <button class="btnM" onclick="loadSong(136)">136 O Perfect Love (Hold Thou My Hand)</button><button class="btnM" onclick="loadSong(137)">137 Tis the Blessed Hour of Prayer.</button>
+  <button class="btnM" onclick="loadSong(138)">138 6I Will Follow Thee, My Saviour.</button><button class="btnM" onclick="loadSong(139)">139 O Jesus My Redeemer.</button>
+  <button class="btnM" onclick="loadSong(140)">140 Just As I Am.</button><button class="btnM" onclick="loadSong(141)">141 Beneath the Cross of Jesus.</button>
+  <button class="btnM" onclick="loadSong(142)">142 I Hear Thy Welcome Voice</button><button class="btnM" onclick="loadSong(143)">143 Father, I Stretch My Hands.</button>
+  <button class="btnM" onclick="loadSong(144)">144 Iam Thine , O Lord.</button><button class="btnM" onclick="loadSong(145)">145 Take the World, but Give Me Jesus.</button>
+  <button class="btnM" onclick="loadSong(146)">146 Tread Softy.</button><button class="btnM" onclick="loadSong(147)">147 Live Out Thy Life Within Me.</button>
+  <button class="btnM" onclick="loadSong(148)">148 Closer to Thee, My Father Draw Me.</button><button class="btnM" onclick="loadSong(149)">149 Would You Live for Jesus.</button>
+  <button class="btnM" onclick="loadSong(150)">150 Angry Words, Oh, Let Them Never</button><button class="btnM" onclick="loadSong(151)">151 He Leadeth me.</button>
+  <button class="btnM" onclick="loadSong(152)">152 Nearer, My God to Thee</button><button class="btnM" onclick="loadSong(153)">153 One Sweetly Solemn Thought.</button>
+  <button class="btnM" onclick="loadSong(154)">154 I Must Have the Saviour With Me.</button><button class="btnM" onclick="loadSong(155)">155 9All the way My Saviour Leads Me.</button>
+  <button class="btnM" onclick="loadSong(156)">156 Guide Me, O Thou Great Jehovah!</button><button class="btnM" onclick="loadSong(157)">157 The Coming King.</button>
+  <button class="btnM" onclick="loadSong(158)">158 How far From Home?</button><button class="btnM" onclick="loadSong(159)">159 How Sweet are the Tidings.</button><button class="btnM" onclick="loadSong(160)">160 Watch Ye Saints.</button>
+  <button class="btnM" onclick="loadSong(161)">161 Lift Up the Trumpet.</button><button class="btnM" onclick="loadSong(162)">162 There is a Blessed Hope.</button><button class="btnM" onclick="loadSong(163)">163 It May Be at Morn.</button>
+  <button class="btnM" onclick="loadSong(164)">164 The Golden Morning is Fast.</button><button class="btnM" onclick="loadSong(165)">165 Sweet Promise is Give.</button>
+  <button class="btnM" onclick="loadSong(166)">166 Joy to the World .</button><button class="btnM" onclick="loadSong(167)">167 Jesus My Saviour, to Bethlehem.</button>
+  <button class="btnM" onclick="loadSong(168)">168 When the Trumpet of the Lord.</button><button class="btnM" onclick="loadSong(169)">169 When Jesus Shall Gather</button>
+  <button class="btnM" onclick="loadSong(170)">170 Is My Name Written There?</button><button class="btnM" onclick="loadSong(171)">171 The Judgement Has Set.</button>
+  <button class="btnM" onclick="loadSong(172)">172 Called to the Feast.</button><button class="btnM" onclick="loadSong(173)">173 We Know Not the Hour.</button>
+  <button class="btnM" onclick="loadSong(174)">174 We Know Not the Time When He.</button><button class="btnM" onclick="loadSong(175)">175 Face to Face.</button>
+  <button class="btnM" onclick="loadSong(176)">176 Shall We Gather at the River?</button><button class="btnM" onclick="loadSong(177)">177 When My Life-work is Ended.</button>
+  <button class="btnM" onclick="loadSong(178)">178 On Jordan‘s Stormy Banks.</button><button class="btnM" onclick="loadSong(179)">179 O There‘ll Be Joy.</button>
+  <button class="btnM" onclick="loadSong(180)">180 here‘s a Land That Is Fairer that</button><button class="btnM" onclick="loadSong(181)">181 We‘ll Tarry by The Living Waters.</button>
+  <button class="btnM" onclick="loadSong(182)">182 In the Land of Fadeless Day.</button><button class="btnM" onclick="loadSong(183)">183 There‘ll Be No Dark Valley</button>
+  <button class="btnM" onclick="loadSong(184)">184 There is Beaut All Around.</button><button class="btnM" onclick="loadSong(185)">185 O Perfect Love</button><button class="btnM" onclick="loadSong(186)">186 Our Blessed Redeemer.</button>
+  <button class="btnM" onclick="loadSong(187)">187 With Frinds On Earth.</button><button class="btnM" onclick="loadSong(188)">188 Asleep in Jesus.</button>
+  <button class="btnM" onclick="loadSong(189)">189 O Now see the Crimson Wave.</button><button class="btnM" onclick="loadSong(190)">190 Baptize Us A new.</button>
+  <button class="btnM" onclick="loadSong(191)">191 Forever My Rest Shall Be.</button><button class="btnM" onclick="loadSong(192)">192 Break Thou the Bread of Life.</button>
+  <button class="btnM" onclick="loadSong(193)">193 Rock of Ages, Cleft for Me.</button><button class="btnM" onclick="loadSong(194)">194 Hark! Tis the Shepherd‘s Voice.</button>
+  <button class="btnM" onclick="loadSong(195)">195 O Thou Whose Hand*</button><button class="btnM" onclick="loadSong(196)">196 When He Cometh.</button><button class="btnM" onclick="loadSong(197)">197 Jesus Loves me!</button>
+  <button class="btnM" onclick="loadSong(198)">198 I Washed My Hands.</button><button class="btnM" onclick="loadSong(199)">199 ‗Tis Love That makes Us Happy.</button>
+  <button class="btnM" onclick="loadSong(200)">200 I Am So Glad That Our Father</button><button class="btnM" onclick="loadSong(201)">201 God Sees the Little Sparrow Fall.</button>
+  <button class="btnM" onclick="loadSong(202)">202 I Hear the Shillings Dropping.</button><button class="btnM" onclick="loadSong(203)">203 The Books of the New Testament.</button>
+  <button class="btnM" onclick="loadSong(204)">204 It Fell Upon a Summer Day.</button><button class="btnM" onclick="loadSong(205)">205 Precious Saviour, Thou Hast.</button>
+  <button class="btnM" onclick="loadSong(206)">206 Sing And Smile.</button><button class="btnM" onclick="loadSong(207)">207 O Little Pennies.</button><button class="btnM" onclick="loadSong(208)">208 I will Wear a Crown.</button>
+  <button class="btnM" onclick="loadSong(209)">209 I Am the Door</button><button class="btnM" onclick="loadSong(210)">210 Into My Heart.</button><button class="btnM" onclick="loadSong(211)">211 hank you for the World So Sweet</button>
+  <button class="btnM" onclick="loadSong(212)">212 Whisper a Prayer in the Morning.</button><button class="btnM" onclick="loadSong(213)">213 Missionary Band.</button>
+  <button class="btnM" onclick="loadSong(214)">214 Roll Your Burdens Away.</button><button class="btnM" onclick="loadSong(215)">215 Books f the Old Testament.</button>
+  <button class="btnM" onclick="loadSong(216)">216 I will Make You Fishers of Men.</button><button class="btnM" onclick="loadSong(217)">217 Always Cheerful .</button>
+  <button class="btnM" onclick="loadSong(218)">218 This little Light of Mine.</button><button class="btnM" onclick="loadSong(219)">219 The Trees Are Gently Swaying.</button>
+  <button class="btnM" onclick="loadSong(220)">220 I Can Hear the Saviour Calling.</button><button class="btnM" onclick="loadSong(221)">221 Jesus Loves the Children.</button>
+  <button class="btnM" onclick="loadSong(222)">222 Praise Him! Little Children.</button><button class="btnM" onclick="loadSong(223)">223 God Made My Life.</button>
+  <button class="btnM" onclick="loadSong(224)">224 Give Me Oil in My Lamp.</button><button class="btnM" onclick="loadSong(225)">225 You Can Smile</button><button class="btnM" onclick="loadSong(226)">226 Deep and Wide .</button>
+  <button class="btnM" onclick="loadSong(227)">227 The B-I-B-L-E.</button><button class="btnM" onclick="loadSong(228)">228 Seeking the Lost.</button><button class="btnM" onclick="loadSong(229)">229 On the Mountain‘s Height</button>
+  <button class="btnM" onclick="loadSong(230)">230 Speak to My Soul.</button><button class="btnM" onclick="loadSong(231)">231 Christ or Barabbas.</button><button class="btnM" onclick="loadSong(232)">232 Wonderful Words of Life.</button>
+  <button class="btnM" onclick="loadSong(233)">233 I Love Thee .</button><button class="btnM" onclick="loadSong(234)">234 In Joyful High.</button><button class="btnM" onclick="loadSong(235)">235 Close to Thee.</button>
+  <button class="btnM" onclick="loadSong(236)">236 The Lord in Zion Reigneth.</button><button class="btnM" onclick="loadSong(237)">237 Praise Him! Praise Him</button>
+  <button class="btnM" onclick="loadSong(238)">238 This is My Father‘s World.</button><button class="btnM" onclick="loadSong(239)">239 Lead On O King Eternal</button>
+  <button class="btnM" onclick="loadSong(240)">240 Near to the Heart of God</button><button class="btnM" onclick="loadSong(241)">241 Wake the Song</button>
+  <button class="btnM" onclick="loadSong(242)">242 An Open Bible for the World</button><button class="btnM" onclick="loadSong(243)">243 Standing on he Promises.</button>
+  <button class="btnM" onclick="loadSong(244)">244 Open My Eyes, That I May See</button><button class="btnM" onclick="loadSong(245)">245 Go and Inquire.</button>
+  <button class="btnM" onclick="loadSong(246)">246 Faith of Our Fathers.</button><button class="btnM" onclick="loadSong(247)">247 Loving – Kindness.</button>
+  <button class="btnM" onclick="loadSong(248)">248 The Best Friend Is Jesus.</button><button class="btnM" onclick="loadSong(249)">249 The Name of Jesus.</button>
+  <button class="btnM" onclick="loadSong(250)">250 There‘s No Other Name Like Jesus.</button><button class="btnM" onclick="loadSong(251)">251 The Holiest Name .</button>
+  <button class="btnM" onclick="loadSong(252)">252 O Come, All Ye Faithful.</button><button class="btnM" onclick="loadSong(253)">253 Hark! The Herald Angels Sing.</button>
+  <button class="btnM" onclick="loadSong(254)">254 Silent Night, Holy Night.</button><button class="btnM" onclick="loadSong(255)">255 Little Town of Bethlehem</button>
+  <button class="btnM" onclick="loadSong(256)">256 The Old Rugged Cross.</button><button class="btnM" onclick="loadSong(257)">257 Tell Me the Old Old Story.</button>
+  <button class="btnM" onclick="loadSong(258)">258 The Way of the Cross Leads Home.</button><button class="btnM" onclick="loadSong(259)">259 Fairest Lord Jesus.</button>
+  <button class="btnM" onclick="loadSong(260)">260 My Redeemer.</button><button class="btnM" onclick="loadSong(261)">261 Lead Me to Calvary.</button><button class="btnM" onclick="loadSong(262)">262 Lift Him Up.</button>
+  <button class="btnM" onclick="loadSong(263)">263 The Ninety and Nine.</button><button class="btnM" onclick="loadSong(264)">264 Shall You? Shall I?</button><button class="btnM" onclick="loadSong(265)">265 Your Saviour, Too.</button>
+  <button class="btnM" onclick="loadSong(266)">266 Ye Must Be Born Again.</button><button class="btnM" onclick="loadSong(267)">267 It is Morning in My Heart.</button>
+  <button class="btnM" onclick="loadSong(268)">268 When We All Get to Heaven.</button><button class="btnM" onclick="loadSong(269)">269 What a Wonderful Saviour.</button>
+  <button class="btnM" onclick="loadSong(270)">270 He Brought Me Out.</button><button class="btnM" onclick="loadSong(271)">271 He Hideth My Soul.</button><button class="btnM" onclick="loadSong(272)">272 That‘s Why I Love Him.</button>
+  <button class="btnM" onclick="loadSong(273)">273 Just When I Need Him.</button><button class="btnM" onclick="loadSong(274)">274 Under His Wings</button><button class="btnM" onclick="loadSong(275)">275 We have an Anchor</button>
+  <button class="btnM" onclick="loadSong(276)">276 Moment by Moment.</button><button class="btnM" onclick="loadSong(277)">277 Sunshine in the Soul</button><button class="btnM" onclick="loadSong(278)">278 He Lives</button>
+  <button class="btnM" onclick="loadSong(279)">279 Higher Ground.</button><button class="btnM" onclick="loadSong(280)">280 Showers of Blessing.</button><button class="btnM" onclick="loadSong(281)">281 Abiding and Confiding.</button>
+  <button class="btnM" onclick="loadSong(282)">282 Love‘s Rainbow.</button><button class="btnM" onclick="loadSong(283)">283 Music in My Soul.</button><button class="btnM" onclick="loadSong(284)">284 Nor Silver Nor Gold.</button>
+  <button class="btnM" onclick="loadSong(285)">285 Blessed Quietness.</button><button class="btnM" onclick="loadSong(286)">286 I Belong to the King.</button><button class="btnM" onclick="loadSong(287)">287 Jesus Saviour Pilot Me.</button>
+  <button class="btnM" onclick="loadSong(288)">288 Beaty for Ashes.</button><button class="btnM" onclick="loadSong(289)">289 Grace Greater Than Our Sin.</button><button class="btnM" onclick="loadSong(290)">290 Wholly Thine.</button>
+  <button class="btnM" onclick="loadSong(291)">291 In the Garden.</button><button class="btnM" onclick="loadSong(292)">292 Blessed Are They That do.</button>
+  <button class="btnM" onclick="loadSong(293)">293 Sweeter as the Years Go By.</button><button class="btnM" onclick="loadSong(294)">294 God Will take Care of You.</button><button class="btnM" onclick="loadSong(295)">295 Forward .</button>
+  <button class="btnM" onclick="loadSong(296)">296 Faith Is the Victory.</button><button class="btnM" onclick="loadSong(297)">297 Stand Like the Brave.</button>
+  <button class="btnM" onclick="loadSong(298)">298 Sound the Battle Cry.</button><button class="btnM" onclick="loadSong(299)">299 We‘ve a Story to Tell to the Nations.</button>
+  <button class="btnM" onclick="loadSong(300)">300 Hasten On, Glad Day</button><button class="btnM" onclick="loadSong(301)">301 What Are You Doing for Jesus.</button>
+  <button class="btnM" onclick="loadSong(302)">302 Even Unto the End</button><button class="btnM" onclick="loadSong(303)">303 Make me a Blessing Today</button><button class="btnM" onclick="loadSong(304)">304 The Helping Word</button>
+  <button class="btnM" onclick="loadSong(305)">305 Lower Lights.</button><button class="btnM" onclick="loadSong(306)">306 Where Are the Reapers?</button><button class="btnM" onclick="loadSong(307)">307 The King‘s Business</button>
+  <button class="btnM" onclick="loadSong(308)">308 he Breaking of the Day</button><button class="btnM" onclick="loadSong(309)">309 In a Little While we‘e Going Home</button>
+  <button class="btnM" onclick="loadSong(310)">310 Hail Him the King of Glory</button><button class="btnM" onclick="loadSong(311)">311 Golden Dawning</button><button class="btnM" onclick="loadSong(312)">312 Glory Song</button>
+  <button class="btnM" onclick="loadSong(313)">313 We Are Nearing Home!</button><button class="btnM" onclick="loadSong(314)">314 We Shall Know</button><button class="btnM" onclick="loadSong(315)">315 I Shall See the King</button>
+  <button class="btnM" onclick="loadSong(316)">316 The Year of Jubilee</button><button class="btnM" onclick="loadSong(317)">317 Beautiful Robes</button>
+  <button class="btnM" onclick="loadSong(318)">318 They Come From The East and West.</button><button class="btnM" onclick="loadSong(319)">319 Heaven at Last.</button>
+  <button class="btnM" onclick="loadSong(320)">320 Glorious Things of Thee Are Spoken.</button><button class="btnM" onclick="loadSong(321)">321 And Can it Be</button>
+  <button class="btnM" onclick="loadSong(322)">322 Cover With His Life</button><button class="btnM" onclick="loadSong(323)">323 My Lord is Crucified</button>
+  <button class="btnM" onclick="loadSong(324)">324 Hallelujah What a Saviour!</button><button class="btnM" onclick="loadSong(325)">325 Let Jesus Come Into Your Heart</button>
+  <button class="btnM" onclick="loadSong(326)">326 Take Up Thy Cross</button><button class="btnM" onclick="loadSong(327)">327</button><button class="btnM" onclick="loadSong(328)">328 Where We‘ll Never Grow Old.</button>
+  <button class="btnM" onclick="loadSong(329)">329 A Mighty Fortress.</button><button class="btnM" onclick="loadSong(330)">330 He Will Hide Me.</button><button class="btnM" onclick="loadSong(331)">331 Why Not Now?</button>
+  <button class="btnM" onclick="loadSong(332)">332 Have You Counted The Cost?</button><button class="btnM" onclick="loadSong(333)">333 O The Way Is Long And weary.</button>
+  <button class="btnM" onclick="loadSong(334)">334 Wonderful Grace of Jesus.</button><button class="btnM" onclick="loadSong(335)">335 The Jericho Road.</button>
+  <button class="btnM" onclick="loadSong(336)">336 Lord I Want to be a Christian</button><button class="btnM" onclick="loadSong(337)">337 Just a Closer Walk</button>
+  <button class="btnM" onclick="loadSong(338)">338 We‘ll Understand it Better By and By</button><button class="btnM" onclick="loadSong(339)">339 Burdens are lifted at Calvary</button>
+  <button class="btnM" onclick="loadSong(340)">340 I‘ll be a Friend to Jesus</button><button class="btnM" onclick="loadSong(341)">341 He‘ll Understand and Say Well</button>
+  <button class="btnM" onclick="loadSong(342)">342 O When the Saints Go Marching.</button><button class="btnM" onclick="loadSong(343)">343 Do Lord</button><button class="btnM" onclick="loadSong(344)">344 When I Come</button>
+  <button class="btnM" onclick="loadSong(345)">345 This World is not My Home</button><button class="btnM" onclick="loadSong(346)">346 Were You There?</button><button class="btnM" onclick="loadSong(347)">347 Steal Away</button>
+  <button class="btnM" onclick="loadSong(348)">348 Amazing Grace.</button><button class="btnM" onclick="loadSong(349)">349 Count Your Blessings.</button><button class="btnM" onclick="loadSong(350)">350 Fill My Cup , Lord.</button>
+  <button class="btnM" onclick="loadSong(351)">351 Go Tell It on the Mountain</button><button class="btnM" onclick="loadSong(352)">352 Great Is Thy Faithfulness</button>
+  <button class="btnM" onclick="loadSong(353)">353 Have Thine Own Way Lord</button><button class="btnM" onclick="loadSong(354)">354 Heaven Came Down</button><button class="btnM" onclick="loadSong(355)">355 In Times Like These</button>
+  <button class="btnM" onclick="loadSong(356)">356 Jesus Is Coming Soon</button><button class="btnM" onclick="loadSong(357)">357 Jesus Is the Sweetest Name I</button><button class="btnM" onclick="loadSong(358)">358 He‘s Able</button>
+  <button class="btnM" onclick="loadSong(359)">359 The Family Of God</button><button class="btnM" onclick="loadSong(360)">360 In My Heart There Rings a Melody</button>
+  <button class="btnM" onclick="loadSong(361)">361 Now the Day Is Over</button><button class="btnM" onclick="loadSong(362)">362 Hear our Prayer, O Lord</button>
+  <button class="btnM" onclick="loadSong(363)">363 Mansion Over the Hilltop</button><button class="btnM" onclick="loadSong(364)">364 Redemption Draweth Nigh</button><button class="btnM" onclick="loadSong(365)">365 Send the Light</button>
+  <button class="btnM" onclick="loadSong(366)">366 Spirit of the Living God</button><button class="btnM" onclick="loadSong(367)">367 Why Should I Worry or Fret.</button>
+  <button class="btnM" onclick="loadSong(369)">369 The Saviour is Waiting</button><button class="btnM" onclick="loadSong(370)">370 Rejoice in the Lord</button><button class="btnM" onclick="loadSong(371)">371 How Great Thou Art</button>
+  <button class="btnM" onclick="loadSong(372)">372 Thanks To Calvary</button><button class="btnM" onclick="loadSong(373)">373 Thine Is the glory</button>
+  <button class="btnM" onclick="loadSong(374)">374 O Listen to Our Wondrous Story</button><button class="btnM" onclick="loadSong(375)">375 Does Jesus Care</button>
+  <button class="btnM" onclick="loadSong(376)">376 My Song Shall Be of Jesus</button><button class="btnM" onclick="loadSong(377)">377 Worthy, Worthy, is the Lamb</button>
+  <button class="btnM" onclick="loadSong(378)">378 O, How I Love Jesus</button><button class="btnM" onclick="loadSong(379)">379 All God‘s Children</button>
+  <button class="btnM" onclick="loadSong(380)">380 May the grace of Christ Our</button><button class="btnM" onclick="loadSong(381)">381 Turn Your Eyes Upon Jesus</button><button class="btnM" onclick="loadSong(382)">382 I Love Him</button>
+  <button class="btnM" onclick="loadSong(383)">383 Power in the Blood</button><button class="btnM" onclick="loadSong(384)">384 Give Me Jesus</button><button class="btnM" onclick="loadSong(385)">385 Nothing Between</button>
+  <button class="btnM" onclick="loadSong(386)">386 I‘d Rather Have Jesus</button><button class="btnM" onclick="loadSong(387)">387 The Lord Is in His Holy Temple</button>
+  <button class="btnM" onclick="loadSong(388)">388 Take My Life and Let it Be</button><button class="btnM" onclick="loadSong(389)">389 How Can I Serve Thee Best?</button>
+  <button class="btnM" onclick="loadSong(390)">390 Holy, Holy, Is What the Angels</button><button class="btnM" onclick="loadSong(391)">391 How Cheering Is the Christian Hope</button>
+  <button class="btnM" onclick="loadSong(392)">392 Peace Perfect Peace</button><button class="btnM" onclick="loadSong(393)">393 At Calvary</button><button class="btnM" onclick="loadSong(394)">394 Jacob‘s Ladder</button>
+  <button class="btnM" onclick="loadSong(395)">395 I must Tell Jesus</button><button class="btnM" onclick="loadSong(396)">396 I Found Happiness</button><button class="btnM" onclick="loadSong(397)">397 Oh, for a Thousand Tongues!</button>
+  <button class="btnM" onclick="loadSong(398)">398 I know Whom I have Believed</button><button class="btnM" onclick="loadSong(400)">400 Because He Lives</button><button class="btnM" onclick="loadSong(401)">401 The Beauty of Jesus</button>
+  <button class="btnM" onclick="loadSong(402)">402 Look for the Waymarks</button><button class="btnM" onclick="loadSong(403)">403 Until Then</button><button class="btnM" onclick="loadSong(404)">404 Love Lifted Me</button>
+  <button class="btnM" onclick="loadSong(405)">405 With Reverence Let the Saints</button><button class="btnM" onclick="loadSong(406)">406 Sweet Spirit</button><button class="btnM" onclick="loadSong(407)">407 Farther Along</button>
+  <button class="btnM" onclick="loadSong(408)">408 The Lily of the Valley .</button><button class="btnM" onclick="loadSong(409)">409 Jesus Paid It All</button><button class="btnM" onclick="loadSong(410)">410 The Eastern Gate</button>
+  <button class="btnM" onclick="loadSong(411)">411 Where He Leads I‘ll Follow</button><button class="btnM" onclick="loadSong(412)">412 The Son Hath Made Me Free</button>
+  <button class="btnM" onclick="loadSong(413)">413 I‘ll Fly Away.</button><button class="btnM" onclick="loadSong(414)">414 Jesus Hold My Hand.</button><button class="btnM" onclick="loadSong(415)">415 Master the Tempest is Raging</button>
+  <button class="btnM" onclick="loadSong(416)">416 I‘ll Meet You In the Morning.</button><button class="btnM" onclick="loadSong(417)">417 Shall We Meet?</button>
+  <button class="btnM" onclick="loadSong(418)">418 The Old Time Religion</button><button class="btnM" onclick="loadSong(419)">419 The God of Abraham Praise</button>
+  <button class="btnM" onclick="loadSong(420)">420 5Let All the World in every Corner.</button><button class="btnM" onclick="loadSong(421)">421 The Spacious Firmament.</button>
+  <button class="btnM" onclick="loadSong(422)">422 Mine Eyes Have Seen the Glory</button><button class="btnM" onclick="loadSong(423)">423 All Hail the Power</button>
+  <button class="btnM" onclick="loadSong(424)">424 The Gospel Train</button><button class="btnM" onclick="loadSong(425)">425 O Lord When I was a Seeker</button><button class="btnM" onclick="loadSong(426)">426 How Great Thou Art</button>
+  <button class="btnM" onclick="loadSong(427)">427 Goin‘ to Lay Down My Burden</button><button class="btnM" onclick="loadSong(428)">428 Somebody‘s Knocking at your Door</button>
+  <button class="btnM" onclick="loadSong(429)">429 I‘ll Be True, Precious Jesus</button><button class="btnM" onclick="loadSong(430)">430 I have Decided to Follow Jesus</button>
+  <button class="btnM" onclick="loadSong(431)">431 He‘s Got the Whole World in His</button><button class="btnM" onclick="loadSong(432)">432 God is so Wonderful</button>
+  <button class="btnM" onclick="loadSong(433)">433 Hold out Your Light</button><button class="btnM" onclick="loadSong(434)">434 I shall Not Be Moved</button><button class="btnM" onclick="loadSong(435)">435 t‘s Me, O Lord</button>
+  <button class="btnM" onclick="loadSong(436)">436 O Brother, Be Faithfu</button><button class="btnM" onclick="loadSong(437)">437 I‘ll Be Somewhere List‘ning</button>
+  <button class="btnM" onclick="loadSong(438)">438 The Lord Is Coming</button><button class="btnM" onclick="loadSong(439)">439 Happiness Is the Lord</button><button class="btnM" onclick="loadSong(440)">440 Alleluia</button>
+  <button class="btnM" onclick="loadSong(441)">441 Swing Low, Swing Chariot</button><button class="btnM" onclick="loadSong(442)">442 Since Jesus Came Into My Heart</button>
+  <button class="btnM" onclick="loadSong(443)">443 Hallelujah For The Cross!</button><button class="btnM" onclick="loadSong(444)">444 Side by Side</button><button class="btnM" onclick="loadSong(445)">445 The Unveiled Christ</button>
+  <button class="btnM" onclick="loadSong(446)">446 Lead Me Saviour</button><button class="btnM" onclick="loadSong(447)">447 Lead Me Gently Home Father</button><button class="btnM" onclick="loadSong(448)">448 Ride On King Jesus</button>
+  <button class="btnM" onclick="loadSong(449)">449 The Glory Of Heaven</button><button class="btnM" onclick="loadSong(450)">450 Everybody Ought To Know</button>
+  <button class="btnM" onclick="loadSong(451)">451 What If It Were Today?</button><button class="btnM" onclick="loadSong(452)">452 Make Me a Blessing</button><button class="btnM" onclick="loadSong(453)">453 Glorious Is Thy Name</button>
+  <button class="btnM" onclick="loadSong(454)">454 Victory in Jesus</button><button class="btnM" onclick="loadSong(455)">455 The Comforter Has Come</button><button class="btnM" onclick="loadSong(456)">456 One Door and Only One</button>
+  <button class="btnM" onclick="loadSong(457)">457 Seed of Promise</button><button class="btnM" onclick="loadSong(458)">458 The King Is Coming</button><button class="btnM" onclick="loadSong(459)">459 What a day that will Be</button>
+  <button class="btnM" onclick="loadSong(460)">460 Jesus I Come</button><button class="btnM" onclick="loadSong(461)">461 Living For Jesus</button><button class="btnM" onclick="loadSong(462)">462 I will Serve Thee</button>
+  <button class="btnM" onclick="loadSong(463)">463 It Is No Secret</button><button class="btnM" onclick="loadSong(464)">464 I‘ll Tell the World that I‘m</button><button class="btnM" onclick="loadSong(465)">465 Just One Touch</button>
+  <button class="btnM" onclick="loadSong(466)">466 Life at Best is very Brief</button><button class="btnM" onclick="loadSong(467)">467 Ring the Bells of Heaven</button>
+  <button class="btnM" onclick="loadSong(468)">468 All the World for Jesus</button><button class="btnM" onclick="loadSong(469)">469 When Love Shines In</button><button class="btnM" onclick="loadSong(470)">470 Never Alone</button>
+  <button class="btnM" onclick="loadSong(471)">471 I‘m Going Home at Last</button><button class="btnM" onclick="loadSong(472)">472 Coming</button><button class="btnM" onclick="loadSong(473)">473 8Let the Gospel Light Shine Out</button>
+  <button class="btnM" onclick="loadSong(474)">474 In the Shadow of His Wings</button><button class="btnM" onclick="loadSong(475)">475 The Summer Land</button>
+  <button class="btnM" onclick="loadSong(476)">476 I Know the Lord Will Make a Way</button><button class="btnM" onclick="loadSong(477)">477 Sunlight</button><button class="btnM" onclick="loadSong(478)">478 There is Joy</button>
+  <button class="btnM" onclick="loadSong(479)">479 When I get Home</button><button class="btnM" onclick="loadSong(480)">480 The Happy Crowning Day</button><button class="btnM" onclick="loadSong(481)">481 Just a Word for Jesus</button>
+  <button class="btnM" onclick="loadSong(482)">482 Wide Wide as the Ocean</button><button class="btnM" onclick="loadSong(483)">483 My Anchor Holds</button><button class="btnM" onclick="loadSong(484)">484 He Took My Sins Away</button>
+  <button class="btnM" onclick="loadSong(485)">485 Go Ye into All the World</button><button class="btnM" onclick="loadSong(486)">486 Tell it Out</button><button class="btnM" onclick="loadSong(487)">487 There is Happy Land</button>
+  <button class="btnM" onclick="loadSong(488)">488 Jesus has Lifted the Lord</button><button class="btnM" onclick="loadSong(489)">489 The Better Land</button><button class="btnM" onclick="loadSong(490)">490 Beyond the Sea</button>
+  <button class="btnM" onclick="loadSong(491)">491 There is Always Time for Prayer</button><button class="btnM" onclick="loadSong(492)">492 May God Depend on You?</button>
+  <button class="btnM" onclick="loadSong(493)">493 Launch Out</button><button class="btnM" onclick="loadSong(494)">494 I Remember Calvary</button><button class="btnM" onclick="loadSong(495)">495 Dwellig in Beulah Land</button>
+  <button class="btnM" onclick="loadSong(496)">496 Whosoever Meaneth Me</button><button class="btnM" onclick="loadSong(497)">497 Lifetime is Working Time</button>
+  <button class="btnM" onclick="loadSong(498)">498 I Love the Gospel Story</button><button class="btnM" onclick="loadSong(499)">499 Working, Watching, Praying</button>
+  <button class="btnM" onclick="loadSong(500)">500 The Fight is On</button><button class="btnM" onclick="loadSong(501)">501 What will You do with the King?</button>
+  <button class="btnM" onclick="loadSong(502)">502 I know that my Redeemer Liveth</button><button class="btnM" onclick="loadSong(503)">503 The OThe Shore</button>
+  <button class="btnM" onclick="loadSong(504)">504 I Hope to Meet You All in Glory</button><button class="btnM" onclick="loadSong(505)">505 Who is on the Lord‘s Side?</button>
+  <button class="btnM" onclick="loadSong(506)">506 Sing On</button><button class="btnM" onclick="loadSong(507)">507 The Angles Song</button><button class="btnM" onclick="loadSong(508)">508 You may have the Joy-Bells</button>
+  <button class="btnM" onclick="loadSong(509)">509 Seeking for Thee</button><button class="btnM" onclick="loadSong(510)">510 Was it for Me?</button><button class="btnM" onclick="loadSong(511)">511 Look and Live</button>
+  <button class="btnM" onclick="loadSong(512)">512 The Old Fountain</button><button class="btnM" onclick="loadSong(513)">513 Blessed be the Fountain</button>
+  <button class="btnM" onclick="loadSong(514)">514 Behold Me Standing at th Door!</button><button class="btnM" onclick="loadSong(515)">515 Jesus will give you Rest</button>
+  <button class="btnM" onclick="loadSong(516)">516 Calling the Prodigal</button><button class="btnM" onclick="loadSong(517)">517 More than Tongue call Tell</button>
+  <button class="btnM" onclick="loadSong(518)">518 The Hem of His Garment</button><button class="btnM" onclick="loadSong(519)">519 Jesus is Passing By</button>
+  <button class="btnM" onclick="loadSong(520)">520 All the Way to Calvary</button><button class="btnM" onclick="loadSong(521)">521 The Grand Old Story of Salvation</button>
+  <button class="btnM" onclick="loadSong(522)">522 What shall the Harvest Be?</button><button class="btnM" onclick="loadSong(523)">523 Come, Sinner, Come!</button><button class="btnM" onclick="loadSong(524)">524 The Gospel Bells</button>
+  <button class="btnM" onclick="loadSong(525)">525 Calvary</button><button class="btnM" onclick="loadSong(526)">526 Springs of Living Water</button><button class="btnM" onclick="loadSong(527)">527 Pass It On</button>
+  <button class="btnM" onclick="loadSong(528)">528 The Royal Telephone</button><button class="btnM" onclick="loadSong(529)">529 Is Thy Heart Right with God?</button>
+  <button class="btnM" onclick="loadSong(530)">530 4The Spirit and bride say Come</button><button class="btnM" onclick="loadSong(531)">531 Let the Blessed Saviour in</button>
+  <button class="btnM" onclick="loadSong(532)">532 Tell it Far and Wide</button><button class="btnM" onclick="loadSong(533)">533 That Man of Calvary</button><button class="btnM" onclick="loadSong(534)">534 Him that Cometh unto Me</button>
+  <button class="btnM" onclick="loadSong(535)">535 Christ for the World</button><button class="btnM" onclick="loadSong(536)">536 Jesus Never Fails</button><button class="btnM" onclick="loadSong(537)">537 Did You Think to Pray?</button>
+  <button class="btnM" onclick="loadSong(538)">538 Memories of Galillee</button><button class="btnM" onclick="loadSong(539)">539 The Captain Calls for You.</button>
+  <button class="btnM" onclick="loadSong(540)">540 There‘s a New Day Dawning</button><button class="btnM" onclick="loadSong(541)">541 From Every Stormy Wind</button>
+  <button class="btnM" onclick="loadSong(542)">542 Thy Word Is Like a Garden</button><button class="btnM" onclick="loadSong(543)">543 We Sing the Praise</button>
+  <button class="btnM" onclick="loadSong(544)">544 Down in the Deepest Sea</button><button class="btnM" onclick="loadSong(545)">545 I Would Be Like Jesus</button>
+  <button class="btnM" onclick="loadSong(546)">546 n the Beauty of Holiness</button><button class="btnM" onclick="loadSong(547)">547 God the Almighty One</button>
+  <button class="btnM" onclick="loadSong(548)">548 Jesus, Still Lead On</button><button class="btnM" onclick="loadSong(549)">549 The Sacred Book</button><button class="btnM" onclick="loadSong(550)">550 Look for the Beautiful</button>
+  <button class="btnM" onclick="loadSong(551)">551 O Gift of God, We Praise Thee</button><button class="btnM" onclick="loadSong(552)">552 I Saw One Weary</button><button class="btnM" onclick="loadSong(553)">553 Never Alone</button>
+  <button class="btnM" onclick="loadSong(554)">554 O Thou Who Hearest Every Heartfelt Prayer</button><button class="btnM" onclick="loadSong(555)">555 Gracious Father, Guard Thy Children</button>
+  <button class="btnM" onclick="loadSong(556)">556 Open the Door for the Children</button><button class="btnM" onclick="loadSong(557)">557 We Gather Together</button>
+  <button class="btnM" onclick="loadSong(558)">558 Isn‘t the Love of Jesus Something wonderful</button><button class="btnM" onclick="loadSong(559)">559 The last Mile of the Way</button>
+  <button class="btnM" onclick="loadSong(560)">560 Send the Light</button><button class="btnM" onclick="loadSong(561)">561 Do You Know My Jesus</button><button class="btnM" onclick="loadSong(562)">562 Who at the Door is Standing</button>
+  <button class="btnM" onclick="loadSong(563)">563 Alleluia</button><button class="btnM" onclick="loadSong(564)">564 Its Not an Easy road</button><button class="btnM" onclick="loadSong(565)">565 Upon the Mountain</button>
+  <button class="btnM" onclick="loadSong(566)">566 O Why not Tonight</button><button class="btnM" onclick="loadSong(567)">567 Balm in Gilead</button><button class="btnM" onclick="loadSong(568)">568 I Want Jesus to Walk With Me</button>
+  <button class="btnM" onclick="loadSong(569)">569 I‘m a Pilgrim</button><button class="btnM" onclick="loadSong(570)">570 He Loves, He saves, He keeps</button>
+  <button class="btnM" onclick="loadSong(571)">571 With Jesus in the Vessel</button><button class="btnM" onclick="loadSong(572)">572 Where Could I Go?</button>
+  <button class="btnM" onclick="loadSong(573)">573 How Beautiful Heaven Must be</button><button class="btnM" onclick="loadSong(574)">574 Surely Goodness</button>
+  <button class="btnM" onclick="loadSong(575)">575 Just a Little Talk With Jesus</button><button class="btnM" onclick="loadSong(576)">576 Praise to the Lord</button>
+  <button class="btnM" onclick="loadSong(577)">577 My Sins are Gone</button><button class="btnM" onclick="loadSong(578)">578 Jesus is all the world to me</button>
+  <button class="btnM" onclick="loadSong(579)">579 Can you Count the Stars?</button><button class="btnM" onclick="loadSong(580)">580 For God So loved the world</button>
+  <button class="btnM" onclick="loadSong(581)">581 How Marvellous! How wonderful</button><button class="btnM" onclick="loadSong(582)">582 Leave it Thee</button><button class="btnM" onclick="loadSong(583)">583 He Keeps me Singing</button>
+  <button class="btnM" onclick="loadSong(584)">584 I Cannot Come to the Banquet</button><button class="btnM" onclick="loadSong(585)">585 . I Can Hear my Savior Calling</button>
+  <button class="btnM" onclick="loadSong(586)">586 Do You Love Jesus?</button><button class="btnM" onclick="loadSong(587)">587 Yield Not To Temptation</button><button class="btnM" onclick="loadSong(588)">588 Heavenly Sunshine</button>
+  <button class="btnM" onclick="loadSong(589)">589 Reach Out to Jesus</button><button class="btnM" onclick="loadSong(590)">590 I‘ve Got Peace Like a River</button><button class="btnM" onclick="loadSong(591)">591 see Jesus</button>
+  <button class="btnM" onclick="loadSong(592)">592 I‘m So Glad Jesus Lifted Me</button><button class="btnM" onclick="loadSong(593)">593 God is My Help</button><button class="btnM" onclick="loadSong(594)">594 Thank You Lord</button>
+  <button class="btnM" onclick="loadSong(595)">595 What the World Need is Jesus</button><button class="btnM" onclick="loadSong(596)">596 Jerusalem the Golden</button>
+  <button class="btnM" onclick="loadSong(597)">597 I Want to be ready</button><button class="btnM" onclick="loadSong(598)">598 Jesus Heals the Broken Hearted</button>
+  <button class="btnM" onclick="loadSong(599)">599 Now I Belong To Jesus</button><button class="btnM" onclick="loadSong(600)">600 All Things Through Christ</button>
+  <button class="btnM" onclick="loadSong(601)">601 All Because of Calvary</button><button class="btnM" onclick="loadSong(602)">602 My Home is in Heaven</button><button class="btnM" onclick="loadSong(603)">603 Christ for Me</button>
+  <button class="btnM" onclick="loadSong(604)">604 Youth of the World</button><button class="btnM" onclick="loadSong(605)">605 Angels Watching</button><button class="btnM" onclick="loadSong(606)">606 My Desire</button>
+  <button class="btnM" onclick="loadSong(607)">607 I‘ll Share my Faith</button><button class="btnM" onclick="loadSong(608)">608 Walking with Jesus</button><button class="btnM" onclick="loadSong(609)">609 All Throng the Night</button>
+  <button class="btnM" onclick="loadSong(610)">610 I‘m So Happy</button><button class="btnM" onclick="loadSong(611)">611 In the Home</button><button class="btnM" onclick="loadSong(612)">612 Lord I Thank You</button>
+  <button class="btnM" onclick="loadSong(613)">613 Jesus is the Answer</button><button class="btnM" onclick="loadSong(614)">614 Lord I Have Made thy Word My Choice</button>
+  <button class="btnM" onclick="loadSong(615)">615 Precious Lord Take My Hand</button><button class="btnM" onclick="loadSong(616)">616 I Will Early Seek the Savior</button>
+  <button class="btnM" onclick="loadSong(617)">617 I am Going to Calvary</button><button class="btnM" onclick="loadSong(618)">618 In My Father‘s House</button><button class="btnM" onclick="loadSong(619)">619 If You Want Joy</button>
+  <button class="btnM" onclick="loadSong(620)">620 Morning Has Broken</button><button class="btnM" onclick="loadSong(621)">621 Father I Adore You</button>
+  <button class="btnM" onclick="loadSong(622)">622 A Man in Jericho Called Zachaeus</button><button class="btnM" onclick="loadSong(623)">623 I Lay My Sins on Jesus</button>
+  <button class="btnM" onclick="loadSong(624)">624 Some where Beyond the Blue</button><button class="btnM" onclick="loadSong(625)">625 At the Cross</button><button class="btnM" onclick="loadSong(626)">626 If Jesus Goes With Me.</button>
+  <button class="btnM" onclick="loadSong(627)">627 .Life Up Jesus</button><button class="btnM" onclick="loadSong(628)">628 Rolling Down to Jordan</button><button class="btnM" onclick="loadSong(629)">629 Let‘s Talk About Jesus</button>
+  <button class="btnM" onclick="loadSong(630)">630 Everyday With Jesus</button><button class="btnM" onclick="loadSong(631)">631 Almighty Father, Hear Our Prayer</button><button class="btnM" onclick="loadSong(632)">632 Love</button>
+  <button class="btnM" onclick="loadSong(633)">633 Isn‘t He Wonderful!</button><button class="btnM" onclick="loadSong(634)">634 Safe Am I</button><button class="btnM" onclick="loadSong(635)">635 We Are Standing On Holy Ground</button>
+  <button class="btnM" onclick="loadSong(636)">636 Dismiss Us, Lord, With Blessing</button><button class="btnM" onclick="loadSong(637)">637 The Lord Bless You and Keep You</button>
+  <button class="btnM" onclick="loadSong(638)">638 His Sheep Am I</button><button class="btnM" onclick="loadSong(639)">639 He Holds My Hand</button><button class="btnM" onclick="loadSong(640)">640 His Name is Wonderful</button>
+  <button class="btnM" onclick="loadSong(641)">641 Without Him</button><button class="btnM" onclick="loadSong(642)">642 The Judgement Day</button><button class="btnM" onclick="loadSong(643)">643 He‘s the One I love</button>
+  <button class="btnM" onclick="loadSong(644)">644 Teach me to Pray Lord</button><button class="btnM" onclick="loadSong('12 a')">12a Again Our Earthy Cares we Leave</button>
+  <button class="btnM" onclick="loadSong('42 a')">42 a Come Gracious Spirit, Heavenly.</button><button class="btnM" onclick="loadSong('62 a')">62 a Flight The Good Fight.</button>
+  <button class="btnM" onclick="loadSong('90 a')">90 a The Day Thou Gavest Lord*</button><button class="btnM" onclick="loadSong('136 a')">136 a From Greenland’s lcy Mountains*</button>
+  <button class="btnM" onclick="loadSong('192 a')">192 a ill He Come! O Let the Word.</button><button class="btnM" onclick="loadSong('195 a')">195 a The Church Has One Foundation.</button>
+  <button class="btnM" onclick="loadSong('401 a')">401 a They Are Watching You</button>
+</div>
+
 
 <script src="hymn.js"></script>
   <script>
+
+// const product = {
+    
+//     "1": {
+//     "song": "1 Holy, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!\n\n2 Holy, holy, holy! all the saints adore Thee,\ncasting down their golden crowns around the glassy sea;\ncherubim and seraphim, falling down before Thee,\nwhich wert and art and evermore shalt be.\n\n3 Holy, holy, holy! though the darkness hide Thee,\nthough the eye of sinful man Thy glory may not see;\nonly Thou art holy, there is none beside Thee,\nperfect in pow'r, in love, and purity.\n\n4 Holy, holy, holy! Lord God Almighty!\nAll Thy works shall praise Thy name, in earth and sky and sea;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!",
+//     "title": "Holy Holy Holly"
+//      },
+    
+//     "2": {
+//         "song": "1 We praise thee, O God, for the Son of thy love,\nfor Jesus who died, and is now gone above.\n\n\n\n    Hallelujah! Thine the glory, hallelujah! Amen!\n    Hallelujah! Thine the glory, revive us again.\n\n2 We praise thee, O God, for thy Spirit of light\nwho has shown us our Savior and scattered our night.\n \n3 We praise thee, O God, for the joy thou hast giv’n\nto thy saints in communion, these foretastes of heav’n.\n \n4 Revive us again, fill each heart with thy love.\nMay each soul be rekindled with fire from above. ",
+//         "title": "Revive Us Again"
+//     }
+//   }
+
+  function menubar(){
+      // console.log("hello mike!")
+    var menu = document.getElementById("menu");
+    menu.innerHTML = `<button onclick="rPage()">menu</botton>`;
+    for(i in product){
+      // menu.innerHTML += `<h4>${i} ${product[i].title}</h4>`
+      menu.innerHTML += `<button class="btnM" onclick="loadSong(${i})">${i} ${product[i].title}</button>`
+
+    }
+    }
+    function hideItems(syn){
+      var songD = document.getElementById('songData')
+      var menuD = document.getElementById('menu')
+      var listD = document.getElementById('songList')
+
+      if(syn == 1){
+        //hide menu and songlist
+        menuD.className = 'hidden'
+        listD.className = 'hidden'
+        songD.className = 'display'
+      }
+      else if(syn == 2){
+        //hide songData and songList
+        menuD.className = 'display'
+        listD.className = 'hidden'
+        songD.className = 'hidden'
+      }
+      else{
+        //hide songData and menu
+        menuD.className = 'hidden'
+        listD.className = 'display'
+        songD.className = 'hidden'
+      }
+    }
+
+    function loadSong(num){
+      hideItems(1)
+      var menu = document.getElementById("songData");
+      menu.innerHTML = `<button onclick="hideItems(2)">menu</botton>`
+      menu.innerHTML += `<button onclick="hideItems(3)">Appendix</botton>`
+      menu.innerHTML += `<h4>${num} ${product[num].title}</h4>`
+      menu.innerHTML += `<pre>${product[num].song}</pre>` 
+    }
+  function rPage(){
+    console.log('clicked')
+    var link = window.location.href
+    window.location.href = link
+  }
     const outputElement = document.getElementById("output");
 
     function appendNumber(number) {
@@ -113,22 +475,48 @@
       outputElement.textContent = "";
     }
     function openSong(){
-      console.log(product[outputElement.textContent])
-    }
-
-  var disSong = document.getElementById('song');
-      for(i=0; i<product.length; i++){
-          for(j in product[i]){
-          var son = `<h3>${j} ${product[i][j].title}</h3>`
-              son += `<pre>${product[i][j].song}</pre>`
-          }
-          // console.log(product[i])
-          disSong.innerHTML += son
+      if(outputElement.textContent == ""){
+        alert('Please enter a song number')
+        return
       }
-    function menubar(){
-      console.log(product[outputElement.i])
-
+      else if(!product.hasOwnProperty(outputElement.textContent)){
+        alert('Sorry song doesnot exist')
+        return
+      }
+      loadSong(outputElement.textContent)
+      outputElement.textContent = ""
     }
+
+    document.getElementById('searchBar').addEventListener('keyup', (e)=>{
+    const searchData = e.target.value.toLowerCase();
+    const filterData = product.filter((song)=> {
+        // console.log(searchData)
+        return(
+            i.title.toLowerCase().includes(searchData)
+        )
+    })
+    displayitem(filterData)
+  });
+
+
+
+// const displayitem = (product)=> {
+//   document.getElementById('menu-bar').innerHTML=items((item)=>{
+    
+//   var disSong = document.getElementById('menu-bar');
+//       for(i=0; i<product.length; i++){
+//           for(j in product[i]){
+//           var son = `<h3>${j} ${product[i][j].title}</h3>`
+//               son += `<pre>${product[i][j].song}</pre>`
+//           }
+//            console.log(title)
+//           disSong.innerHTML += son 
+//       }
+//     }).join('')
+// };
+// displayitem(product);
+
+
     
     function changebackgroundColor() {
       var button = document.getElementById('mybutton');

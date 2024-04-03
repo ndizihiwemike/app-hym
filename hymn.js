@@ -60,7 +60,7 @@ const product = {
             "title": "Praise Go From Whom"
         }
     ,
-        "12 a": {
+        "12a": {
             "song": "1. A-gain our earth-ly cares we\nleave, And to Thy courts re-pair;\nA-gain with joy-ful feet we haste\nTo meet our sav-iour there,\n\n2. Great Shepherd of Thy people,\nhere Thy pres-ence now dis-play.\nWe bow with-in Thy house of\nprayer; O give us hearts to pray!\n\n3. The clouds which veil Thee from\nour sight, In pi-ty Lord, re-move;\nDis-pose our minds to hear a –\nright The mes-sage of Thy love.\n\n4. The feel-ing heart, the melt-ing\neye, The hum-ble mind, be-stow;\nAnd shine up-on us from a-bove,\nTo make our grac-es grow.",
             "title": "Again Our Earthy Cares we Leave"
         }
