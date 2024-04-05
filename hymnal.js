@@ -996,7 +996,227 @@ const product = {
         "229": {
             "song": "6 Doh is F Doh is E Flat 8 C.E. ROUNSEFELL\n\n1. It may not be on the mountain‘s\nheight, Nor o-ver the storm-y\nsea; It may not be at the bat-tle‘s\nfront, My Lord will have need of\nme; But if by a still small voice\nHe calls To paths that I do not\nknow, I‘ll answer, dear Lrd with\nmy hand in Thine, I‘ll go where\nyou want me to go.\nI‘ll go where you want me to go,\ndear Lord, O-ver mountain , or\nplain or sea; I‘ll say what you\nwant me to say, dear Lord, I‘ll\nbe what you want me to be.\n\n2. Per-haps to-day there are lo-ving\nwords which Je-sus would have\nme speak There may be now in\nthe paths of sin, Some wand‘rer\nwhom I should seek; O Sv-iour,\nif Thou wilt be my guide,\nTh‘rug-ged and dark the way,\nMy voice shall ech-o Thy mes-\nsage sweet, I‘ll say what you\nwant me to say.\n\n3.There‘s sure-ly some-where a\nlow-ly place in earth‘s harvest\nfields so wide Where I may la -\nbour thro‘life‘s short day For Je-\nsus the cru-cified; So trusting\nmy all to Thy tend-er cre, And\nknow-ing Thou lov-est me,\nI‘ll do Thy will a heart sin- cere,\nI‘ll be what you want me to be.",
             "title": "On the Mountain‘s Height"
+        },
+        "230": {
+            "song": "1 Speak to my soul, dear Jesus,\nSpeak now in tend'rest tone;\nWhisper in loving kindness;\n\"Thou art not left alone,\"\nOpen my heart to hear Thee,\nQuickly to hear Thy voice,\nFill Thou my soul with praises\nLet me in Thee rejoice.\n\nChorus:\nSpeak Thou in softest whispers,\nWhispers of love to me;\n\"Thou shalt be always conq'ror\nThou shalt be always free.\nSpeak Thou to me each day, Lord,\nAlways in tend'rest tone,\nLet me now hear Thy whisper,\"\n\"Thou art not left alone.\"\n\n2 Speak to Thy children ever,\nLead in the holy way;\nFill them with joy and gladness,\nTeach them to watch and pray,\nMay they in consecration\nYield their whole lives to Thee,\nHasten Thy coming kingdom,\nTill our dear Lord we see. \n\n3 Speak now as in the old time\nThou didst reveal Thy will:\nLet me know all my duty,\nLet me Thy law fulfil,\nLead me to glorify Thee,\nHelp me to show Thy praise,\nGladly to do Thy bidding,\nHonor Thee all my days,",
+            "title": "Speak to My Soul."
+        },
+        "231": {
+            "song": "1 What shall I do with Jesus?\nHe stands before me now,\nWearing the robe of purple,\nAnd thorns upon His brow.\n\n\nThis is the question now;\nWhat shall the answer be?\nShall I crucify King Jesus,\nAnd set Barabbas free?\n\n2 Shall I release the robber,\nThe carnal man of pride?\nSin or a sinless Saviour?--\nO which shall be denied?\n\n3 Solemn and awful question!\nHow still the balance stands!\nMercy a moment lingers,\nIt trembles in her hands.\n\n4 Self on the seat of judgment,\nDare you the world deny?\nLouder and louder calling,\n\"Away!\" and \"Crucify!\"\n\n5 Not to the sinner only,\nThe question comes with pow'r;\nHear it, ye halting Christians,\nIn ev'ry trial hour.",
+            "title": "Christ or Barabbas."
+        },
+        "232": {
+            "song": "1\nSing them over again to me,\nwonderful words of life,\nLet me more of their beauty see,\nwonderful words of life;\nWords of life and beauty\nteach me faith and duty.\n\nRefrain\nBeautiful words, wonderful words,\nwonderful words of life,\nBeautiful words, wonderful words,\nwonderful words of life.\n\n2\nChrist, the blessèd One, gives to all\nwonderful words of life;\nSinner, list to the loving call,\nwonderful words of life;\nAll so freely given,\nwooing us to heaven.\n\n3\nSweetly echo the Gospel call,\nwonderful words of life;\nOffer pardon and peace to all,\nwonderful words of life;\nJesus, only Savior,\nsanctify forever.",
+            "title": "Wonderful Words of Life."
+        },
+        "233": {
+            "song": "1\nI love Thee, I love Thee, I love Thee,my Lord;\nI love Thee, my Savior, I love Thee, my God.\nI love Thee, I love Thee, and that Thou dost know;\nBut how much I love Thee my actions will show.\n\n2\nI’m happy, I’m happy, O, wondrous account!\nMy joys are immortal, I stand on the mount!\nI gaze on my treasure and long to be there,\nWith Jesus and angels, and kindred so dear.\n\n3\nO Jesus, my Savior, with Thee I am blest,\nMy life and salvation, my joy and my rest:\nThy name be my theme, and Thy love be my song;\nThy grace shall inspire both my heart and my tongue.\n\n4\nO, who’s like my Savior? He’s Salem’s bright King;\nHe smiles, and He loves me, and helps me to sing.\nI’ll praise Him, I’ll praise Him, with notes loud and clear\nWhile rivers of pleasure my spirit do cheer.",
+            "title": "I Love Thee"
+        },
+        "234": {
+            "song": "1 In joyful high and holy lays\nMy soul her grateful voice would raise;\nBut who can sing the worthy praise\nOf the wonderful love of Jesus?\n\nRefrain:\nWonderful love! wonderful love!\nWonderful love of Jesus!\nWonderful love! wonderful love!\nWonderful love of Jesus!\n\n2 A joy by day, a peace by night,\nIn storms a calm, in darkness light,\nIn pain a balm, in weakness might,\nIs the wonderful love of Jesus. \n\n3 My hope for pardon when I call,\nMy trust for lifting when I fall;\nIn life, in death, my all in all,\nIs the wonderful love of Jesus.",
+            "title": "In Joyful High."
+        },
+        "235": {
+            "song": "1\nThou my everlasting portion,\nMore than friend or life to me,\nAll along my pilgrim journey,\nSavior, let me walk with Thee.\n\nClose to Thee, close to Thee,\nClose to Thee, close to Thee;\nAll along my pilgrim journey,\nSavior, let me walk with Thee.\n\n2\nNot for ease or worldly pleasure,\nNor for fame my prayer shall be;\nGladly will I toil and suffer,\nOnly let me walk with Thee.\n\nClose to Thee, close to Thee,\nClose to Thee, close to Thee,\nGladly will I toil and suffer,\nOnly let me walk with Thee.\n\n3\nLead me through the vale of shadows,\nBear me o’er life’s fitful sea;\nThen the gate of life eternal\nMay I enter, Lord, with Thee.\n\nClose to Thee, close to Thee,\nClose to Thee, close to Thee,\nThen the gate of life eternal\nMay I enter, Lord, with Thee.",
+            "title": "Close to Thee."
+        },
+        "236": {
+            "song": "1\nThe Lord in Zion reigneth, let all the world rejoice,\nAnd come before His throne of grace with tuneful heart and voice;\nThe Lord in Zion reigneth, and there His praise shall ring,\nTo Him shall princes bend the knee and kings their glory bring.\n\n2\nThe Lord in Zion reigneth, and who so great as He?\nThe depths of earth are in His hands; He rules the mighty sea.\nO crown His Name with honor, and let His standard wave,\nTill distant isles beyond the deep shall own His power to save.\n\n3\nThe Lord in Zion reigneth, these hours to Him belong;\nO enter now His temple gates, and fill His courts with song;\nBeneath His royal banner let every creature fall,\nExalt the King of heaven and earth, and crown Him Lord of all.",
+            "title": "The Lord in Zion Reigneth."
+        },
+        "237": {
+            "song": "1 Praise him, praise him! Jesus, our blessed redeemer!\nSing, O earth, his wonderful love proclaim!\nHail him, hail him! Highest archangels in glory!\nStrength and honor give to his holy name!\nLike a shepherd, Jesus will guard his children.\nIn his arms he carries them all day long.\n\nRefrain:\nPraise him! Praise him! tell of his excellent greatness.\nPraise him! Praise him! ever in  joyful song.\n\n2 Praise him, praise him! Jesus, our blessed redeemer!\nFor our sins, he suffered, and bled, and died.\nHe our rock, our hope of eternal salvation,\nhail him, hail him! Jesus, the crucified.\nSound his praises, Jesus who bore our sorrows,\nlove unbounded, wonderful, deep, and strong. \n\n3 Praise him, praise him! Jesus, our blessed redeemer!\nHeav’nly portals loud with hosannas ring!\nJesus, Savior, reigneth forever and ever!\nCrown him, crown him! prophet, and priest, and king!\nChrist is coming, over the world victorious.\nPow’r and glory unto the Lord belong.",
+            "title": "Praise Him!  Praise Him"
+        },
+        "238": {
+            "song": "1\nThis is my Father’s world,\nand to my listening ears\nall nature sings, and round me rings\nthe music of the spheres.\nThis is my Father’s world:\nI rest me in the thought\nof rocks and trees, of skies and seas;\nhis hand the wonders wrought.\n\n2\nThis is my Father’s world,\nthe birds their carols raise,\nthe morning light, the lily white,\ndeclare their maker’s praise.\nThis is my Father’s world:\nhe shines in all that’s fair;\nin the rustling grass I hear him pass;\nhe speaks to me everywhere.\n\n3\nThis is my Father’s world.\nO let me ne’er forget\nthat though the wrong seems oft so strong,\nGod is the ruler yet.\nThis is my Father’s world:\nwhy should my heart be sad?\nThe Lord is King; let the heavens ring!\nGod reigns; let the earth be glad!",
+            "title": "This is My Father‘s World."
+        },
+        "239": {
+            "song": "1\nLead on, O King eternal,\nthe day of march has come;\nhenceforth in fields of conquest\nthy tents shall be our home.\nThrough days of preparation\nthy grace has made us strong;\nand now, O King eternal,\nwe lift our battle song.\n\n2\nLead on, O King eternal,\ntill sin’s fierce war shall cease,\nand holiness shall whisper\nthe sweet amen of peace.\nFor not with swords loud clashing,\nnor roll of stirring drums;\nwith deeds of love and mercy\nthe heavenly kingdom comes.\n\n3\nLead on, O King eternal,\nwe follow, not with fears,\nfor gladness breaks like morning\nwhere’er thy face appears.\nThy cross is lifted o’er us,\nwe journey in its light;\nthe crown awaits the conquest;\nlead on, O God of might.\n\n",
+            "title": "Lead On O King Eternal"
+        },
+        "240": {
+            "song": "1\nThere is a place of quiet rest,\nnear to the heart of God;\na place where sin cannot molest,\nnear to the heart of God.\n\nRefrain\nO Jesus, blest Redeemer,\nsent from the heart of God,\nhold us who wait before thee\nnear to the heart of God.\n\n2\nThere is a place of comfort sweet,\nnear to the heart of God;\na place where we our Savior meet,\nnear to the heart of God.\n\n3\nThere is place a place of full release,\nnear to the heart of God;\na place where all is joy and peace,\nnear to the heart of God.",
+            "title": "Near to the Heart of God"
+        },
+        "241": {
+            "song": "1\nWake the song of joy and gladness;\nHither bring your noblest lays;\nBanish every thought of sadness,\nPouring forth your highest praise.\nSing to Him whose care has brought us\nOnce again with friends to meet,\nAnd whose loving voice has taught us\nOf the way to Jesus’ feet.\n\nRefrain\nWake the song, wake the song,\nThe song of joy and gladness,\nWake the song, wake the song,\nThe song of Jubilee.\n\n2\nJoyfully with songs and banners,\nWe will greet the festal day;\nShout aloud our glad hosannas,\nAnd our grateful homage pay.\nWe will chant our Savior’s glory\nwhile our thoughts we raise above,\nTelling still the old, old, story,\nPrecious theme- redeeming love!\n\n3\nThanks to Thee, O holy Father,\nFor the mercies of the year;\nMay each heart, as here we gather,\nSwell with gratitude sincere,\nThanks to Thee, O loving Savior,\nFor redemption through Thy blood.\nBreathe upon us, Holy Spirit,\nSweetly draw us near to God.",
+            "title": "Wake the Song"
+        },
+        "242": {
+            "song": "1\nAn open Bible for the world—\nMay this our glorious motto be!\nOn every breeze its flag unfurled\nShall scatter blessings rich and free.\n\nRefrain:\nBlest Word of God! send forth thy light\nO’er every land and every sea,\nTill all who wander in the night\nAre led to God and Heav’n by thee.\n\n2\nWhere’er it goes its golden light,\nStreaming as from an unveiled sun,\nShall dissipate the clouds of night,\nUndo the work that sin has done.\n\n3\nIt shows to men the Father’s face,\nAll radiant with forgiving love;\nAnd to the lost of Adam’s race\nProclaims sweet mercy from above.\n\n4\nIt tells of Jesus and His death,\nOf life procured for dying men;\nAnd to each soul of humble faith,\nIt sonship gives with God again.\n\n5\nIt offers rest to weary hearts,\nIt comforts those who sit in tears;\nTo all who faint, it strength imparts,\nAnd gilds with hope th’ eternal years.",
+            "title": "An Open Bible for the World"
+        },
+        "243": {
+            "song": "1\nStanding on the promises of Christ my King,\nThru eternal ages let His praises ring;\nGlory in the highest I will shout and sing,\nStanding on the promises of God.\n\nRefrain\nStanding, standing,\nStanding on the promises\nof God my Savior;\nStanding, standing,\nI’m standing on the promises of God.\n\n2\nStanding on the promises that cannot fail,\nWhen the howling storms of doubt and fear assail,\nBy the living word of God I shall prevail,\nStanding on the promises of God.\n\n3\nStanding on the promises of Christ the Lord,\nBound to Him eternally by love’s strong cord,\nOvercoming daily with the Spirit’s sword,\nStanding on the promises of God.",
+            "title": "Standing on he Promises."
+        },
+        "244": {
+            "song": "1\nOpen my eyes, that I may see\nGlimpses of truth Thou hast for me;\nPlace in my hands the wonderful key\nThat shall unclasp and set me free.\nSilently now I wait for Thee,\nReady, my God, Thy will to see;\nOpen my eyes,\nillumine me, Spirit Divine!\n\n2\nOpen my ears that I may hear\nVoices of truth Thou sendest clear;\nand while the wavenotes fall on my ear,\nEverything false will disappear.\nSilently now I wait for Thee,\nReady, my God, Thy will to see;\nOpen my ears, illumine me, Spirit Divine!\n\n3\nOpen my mouth, and let me bear\nGladly the warm truth everywhere;\nOpen my heart, and let me prepare\nLove with Thy children thus to share.\nSilently now I wait for Thee,\nReady, my God, Thy will to see;\nOpen my heart, illumine me, Spirit Divine!",
+            "title": "Open My Eyes, That I May See"
+        },
+        "245": {
+            "song": "1 Searching the Scriptures, \nthe blessed Scriptures,\nSeeking the Saviour day by day,\nStriving to learn the wondrous story,—\nWhat does the blessed Bible say?\n\nRefrain:\n\nGo and inquire, the King commandeth;\nAsk of the Lord for me and thee;\nKnock at the open door of mercy,\nWhere there is pardon full and free.\n\n2 Searching the Scriptures, \nthe blessed Scriptures,\nSeeking to know the heav’nly way,\nTrying to reach the golden city,—\nWhat does the blessed Bible say? \n\n3 Searching the Scriptures, \nthe blessed Scriptures,\nSeeking the wand’rers by the way,\nTrying to point a soul to Jesus,—\nWhat does the blessed Bible say? \n",
+            "title": "Go and Inquire."
+        },
+        "246": {
+            "song": "1\nFaith of our fathers, living still,\nIn spite of dungeon, fire and sword;\nO how our hearts beat high with joy\nWhenever we hear that glorious Word!\nFaith of our fathers, holy faith!\nWe will be true to thee till death.\n\n2\nOur fathers, chained in prisons dark,\nWere still in heart and conscience free:\nHow sweet would be their children’s fate.\nIf they, like them, could die for thee!\nFaith of our fathers, holy faith!\nWe will be true to thee till death.\n\n3\nFaith of our fathers, we will love\nBoth friend and foe in all our strife;\nAnd preach Thee, too, as love knows how\nBy kindly words and virtuous life.\nFaith of our fathers, holy faith!\nWe will be true to thee till death.",
+            "title": "Faith of Our Fathers."
+        },
+        "247": {
+            "song": "1 Awake, my soul, in joyful lays,\nAnd sing the great Redeemer's praise;\nHe justly claims a song from me-\nHis lovingkindness, O how free!\nLovingkindness, lovingkindness,\nHis lovingkindness, O how free!\n\n2 He saw me ruined in the fall,\nYet loved me, notwithstanding all;\nHe saved me from my lost estate-\nHis lovingkindness, O how great!\nLovingkindness, lovingkindness,\nHis lovingkindness, O how great!\n\n3 When trouble, like a gloomy cloud,\nHas gathered thick and thundered loud,\nHe near my soul has always stood-\nHis lovingkindness, O how good!\nLovingkindness, lovingkindness,\nHis lovingkindness, O how good!\n",
+            "title": "Loving – Kindness."
+        },
+        "248": {
+            "song": "1 Oh, the best friend to have is Jesus,\nWhen the cares of life upon you roll,\nHe will heal the wounded heart,\nHe will strength and grace impart;\nOh, the best friend to have is Jesus.\n\nChorus:\n\nThe best friend to have is Jesus,\nThe best friend to have is Jesus,\nHe will help you when you fall,\nHe will hear you when you call;\nOh, the best friend to have is Jesus.\n\n2 What a friend I have found in Jesus!\nPeace and comfort to my soul He brings;\nLeaning on His mighty arm,\nI will fear no ill nor harm;\nOh, the best friend to have is Jesus. \n\n3 Tho' I pass thro' the night of sorrow,\nAnd the chilly waves of Jordan roll,\nNever need I shrink nor fear,\nFor my Saviour is so near;\nOh, the best friend to have is Jesus. \n\n4 When at last to our home we gather,\nWith the faithful who have gone before,\nWe will sing upon the shore,\nPraising Him forevermore;\nOh, the best friend to have is Jesus. \n",
+            "title": "The Best Friend Is Jesus."
+        },
+        "249": {
+            "song": "1 The name of Jesus is so sweet,\nI love its music to repeat;\nIt makes my joys full and complete,\nThe precious name of Jesus.\n\nRefrain:\n\n“Jesus,” oh, how sweet the name!\n“Jesus,” ev'ry day the same;\n“Jesus,” let all saints proclaim\nIts worthy praise forever.\n\n2 I love the name of Him whose heart\nKnows all my griefs and bears a part;\nWho bids all anxious fears depart,\nI love the name of Jesus. \n\n3 That name I fondly love to hear,\nIt never fails my heart to cheer,\nIts music dries the falling tear;\nExalt the name of Jesus. \n\n4 No word of man can ever tell\nHow sweet the name I love so well;\nOh, let its praises ever swell,\nOh, praise the name of Jesus. \n",
+            "title": "The Name of Jesus."
+        },
+        "250": {
+            "song": "1 There’s no other name like Jesus,\n‘Tis the dearest name we know,\n‘Tis the angel’s joy in heaven,\n‘Tis the Christian’s joy below.\n\nRefrain\n\nSweet name, (sweet name) dear name, (dear name)\nThere’s no other name like Jesus;\nSweet name, (sweet name) dear name, (dear name)\nThere’s no other name like Jesus.\n\n2 There’s no other name like Jesus\nWhen the heart with grief is sad,\nThere’s no other name like Jesus\nWhen the heart is free and glad. \n\n3 ‘Tis the hope that I shall see Him\nWhen in glory He appears,\n‘Tis the hope to hear His welcome\nThat my fainting spirit cheers. \n\n4 If He wills that I should labor\nIn His vineyard day by day,\nThen ’tis well if only Jesus\nBlesses all I do or say. \n\n5 If He wills that death’s cold finger\nTouch my feeble, mortal clay,\nThen ’tis well if only Jesus\nIs my dying trust and stay. \n",
+            "title": "There's No Other Name Like Jesus"
+        },
+        "251": {
+            "song": "1 Dearest name in earth or heaven,\nSweetest name my heart hath known,\nBy the Father it was given\nTo his well beloved Son.\n\nChorus:\n\n'Tis the holiest name,\n'Tis the holiest name;\nFrom the Father's lips to the earth it came.\nBro't by angels of light,\nIn the stillness of night,\nWas the dear, dear name of Jesus.\n\n2 To my heart it brings a blessing,\nAnd my lips take up the strain,\nAnd his wond'rous name confessing,\nTell its sweetness o'er again. \n\n3 Oh, my soul would swell the chorus,\nSinging his redeeming love,\nAnd ascribe eternal praises\nTo the name all names above.\n",
+            "title": "The Holiest Name ."
+        },
+        "252": {
+            "song": "1 O come, all ye faithful, joyful and triumphant,\nO come ye, O come ye to Bethlehem!\nCome, and behold Him, born the King of angels!\n\nRefrain:\nO come, let us adore Him;\nO come, let us adore Him;\nO come, let us adore Him, \nChrist, the Lord!\n\n2 God of God, Light of Light,\nlo, He abhors not the virgin's womb;\nvery God, begotten not created; \n\n3 Sing, choirs of angels; sing in exultation;\nsing, all ye citizens of heav'n above!\nGlory to God, all glory in the highest!\n\n4 Yea, Lord, we greet Thee, \nborn this happy morning;\nJesus, to Thee be all glory giv'n!\nWord of the Father, now in flesh appearing!\n",
+            "title": "O Come, All Ye Faithful."
+        },
+        "253": {
+            "song": "1\nHark! the herald angels sing,\n“Glory to the new born King,\npeace on earth, and mercy mild,\nGod and sinners reconciled!”\nJoyful, all ye nations rise,\njoin the triumph of the skies;\nwith th’ angelic host proclaim,\n“Christ is born in Bethlehem!”\nHark! the herald angels sing,\n“Glory to the new born King!”\n\n2\nChrist, by highest heaven adored;\nChrist, the everlasting Lord;\nlate in time behold him come,\noffspring of a virgin’s womb.\nVeiled in flesh the Godhead see;\nhail th’ incarnate Deity,\npleased with us in flesh to dwell,\nJesus, our Emmanuel.\nHark! the herald angels sing,\n“Glory to the new born King!”\n\n3\nHail the heaven-born Prince of Peace!\nHail the Sun of Righteousness!\nLight and life to all he brings,\nrisen with healing in his wings.\nMild he lays his glory by,\nborn that we no more may die,\nborn to raise us from the earth,\nborn to give us second birth.\nHark! the herald angels sing,\n“Glory to the new born King!”",
+            "title": "Hark! The Herald Angels Sing."
+        },
+        "254": {
+            "song": "1\nSilent night! holy night!\nAll is calm, all is bright\nRound yon virgin mother and Child,\nHoly Infant so tender and mild,\nSleep in heavenly peace,\nsleep in heavenly peace.\n\n2\nSilent night! holy night!\nShepherds quake at the sight,\nglories stream from heaven afar,\nheavenly hosts sing Alleluia;\nChrist, the Savior is born,\nChrist, the Savior is born.\n\n3\nSilent night! holy night!\nSon of God, love’s pure light,\nRadiant beams from Thy holy face,\nwith the dawn of redeeming grace,\nJesus, Lord, at Thy birth,\nJesus, Lord, at Thy birth.",
+            "title": "Silent Night, Holy Night."
+        },
+        "255": {
+            "song": "1\nO little town of Bethlehem, how still we see thee lie!\nAbove thy deep and dreamless sleep the silent stars go by.\nYet in thy dark streets shineth the everlasting Light;\nThe hopes and fears of all the years are met in thee tonight.\n\n2\nFor Christ is born of Mary, and gathered all above,\nWhile mortals sleep, the angels \nkeep their watch of wondering love.\nO morning stars together, proclaim the holy birth,\nAnd praises sing to God the King, and peace to men on earth!\n\n3\nHow silently, how silently, the wondrous Gift is giv’n;\nSo God imparts to human hearts the blessings of His heav’n.\nNo ear may hear His coming, but in this world of sin,\nWhere meek souls will receive Him still, \nthe dear Christ enters in.\n\n4\nO holy Child of Bethlehem, descend to us, we pray;\nCast out our sin, and enter in, be born in us today.\nWe hear the Christmas angels the great glad tidings tell;\nO come to us, abide with us, our Lord Emmanuel!",
+            "title": "Little Town of Bethlehem"
+        },
+        "256": {
+            "song": "1\nOn a hill far away stood an old rugged cross,\nthe emblem of suffering and shame;\nand I love that old cross where the dearest and best\nfor a world of lost sinners was slain.\n\nRefrain\nSo I’ll cherish the old rugged cross,\ntill my trophies at last I lay down;\nI will cling to the old rugged cross,\nand exchange it some day for a crown.\n\n2\nO that old rugged cross, so despised by the world,\nhas a wondrous attraction for me;\nfor the dear Lamb of God left his glory above\nto bear it to dark Calvary.\n\n3\nTo that old rugged cross I will ever be true,\nits shame and reproach gladly bear;\nthen he’ll call me some day to my home far away,\nwhere his glory forever I’ll share.",
+            "title": "The Old Rugged Cross."
+        },
+        "257": {
+            "song": "1\nTell me the old, old story of unseen things above,\nOf Jesus and His glory, of Jesus and His love.\nTell me the story simply, as to a little child,\nFor I am weak and weary, and helpless and defiled.\n\nRefrain\nTell me the old, old story, tell me the old, old story,\nTell me the old, old story, of Jesus and His love.\n\n2\nTell me the story softly, with earnest tones and grave;\nRemember I’m the sinner whom Jesus came to save.\nTell me the story always, if you would really be,\nIn any time of trouble, a comforter to me.\n\n3\nTell me the same old story when you have cause to fear\nThat this world’s empty glory is costing me too dear.\nYes, and when that world’s glory is dawning on my soul,\nTell me the old, old story: “Christ Jesus makes thee whole.”",
+            "title": "Tell Me the Old Old Story."
+        },
+        "258": {
+            "song": "1 I must needs go home by the way of the cross,\nThere's no other way but this;\nI shall ne'er get sight of the gates of light,\nIf the way of the cross I miss.\n\nChorus:\n\nThe way of the cross leads home, (leads home,)\nThe way of the cross leads home; (leads home;)\nIt is sweet to know as I onward go,\nThe way of cross leads home.\n\n2 I must needs go on in the blood sprinkled way,\nThe path that the Savior trod,\nIf I ever climb to the heights sublime,\nWhere the soul is at home with God. \n\n3 Then I bid farewell to the way of the world,\nTo walk in it nevermore;\nFor the Lord says, \"Come,\" and I seek my home\nWhere He waits at the open door. \n",
+            "title": "The Way of the Cross Leads Home."
+        },
+        "259": {
+            "song": "1\nFairest Lord Jesus, ruler of all nature,\nO thou of God and man the Son!\nThee will I cherish, Thee will I honor,\nthou, my soul’s glory, joy, and crown.\n\n2\nFair are the meadows, fairer still the woodlands,\nrobed in the blooming garb of spring:\nJesus is fairer, Jesus is purer\nwho makes the woeful heart to sing.\n\n3\nFair is the sunshine, fairer still the moonlight,\nand all the twinkling starry host:\nJesus shines brighter, Jesus shines purer\nthan all the angels heaven can boast.\n\n4\nBeautiful Savior! Lord of all the nations,\nSon of God and Son of Man!\nGlory and honor, praise, adoration,\nnow and forevermore be thine!",
+            "title": "Fairest Lord Jesus."
+        },
+        "260": {
+            "song": "1\nI will sing of my Redeemer,\nAnd His wondrous love to me;\nOn the cruel cross He suffered,\nFrom the curse to set me free.\n\nRefrain\nSing, oh sing, of my Redeemer,\nWith His blood, He purchased me.\nOn the cross, He sealed my pardon,\nPaid the debt, and made me free.\n\n2\nI will tell the wondrous story,\nHow my lost estate to save,\nIn His boundless love and mercy,\nHe the ransom freely gave.\n\n3\nI will sing of my Redeemer,\nAnd His heavenly love to me;\nHe from death to life hath brought me,\nSon of God with Him to be.",
+            "title": "My Redeemer."
+        },
+        "261": {
+            "song": "1\nKing of my life, I crown Thee now,\nThine shall the glory be;\nLest I forget Thy thorn crowned brow,\nLead me to Calvary.\n\nRefrain\nLest I forget Gethsemane,\nLest I forget Thine agony;\nLest I forget Thy love for me,\nLead me to Calvary.\n\n2\nShow me the tomb where Thou wast laid,\nTenderly mourned and wept;\nAngels in robes of light arrayed\nGuarded Thee whilst Thou slept.\n\n3\nLet me like Mary, through the gloom,\nCome with a gift to Thee;\nShow to me now the empty tomb,\nLead me to Calvary.\n\n4\nMay I be willing, Lord, to bear\nDaily my cross for Thee;\nEven Thy cup of grief to share,\nThou hast borne all for me.",
+            "title": "Lead Me to Calvary."
+        },
+        "262": {
+            "song": "1\nLift Him up, ’tis He that bids you,\nLet the dying look and live;\nTo all weary, thirsting sinners,\nLiving waters will He give;\nAnd though once so meek and lowly,\nYet the Prince of heaven was He;\nAnd the blind, who grope in darkness,\nThrough the blood of Christ shall see.\n\nRefrain\nLift Him up, the risen Savior,\nHigh amid the waiting throng;\nLift Him up, ’tis He that speaketh,\nNow He bids you flee from wrong.\n\n2\nLift Him up, this precious Savior,\nLet the multitude behold;\nThey with willing hearts shall seek Him,\nHe will draw them to His fold;\nThey shall gather from the wayside,\nHastening on with joyous feet,\nThey shall bear the cross of Jesus,\nAnd shall find salvation sweet.\n\n3\nLift Him up in all His glory,\n‘Tis the Son of God on high;\nLift Him up, His love shall draw them,\nEén the careless shall draw nigh;\nLet them hear again the story\nOf the cross, the death of shame;\nAnd from tongue to tongue repeat it;\nMighty throngs shall bless His name.\n\n4\nO then lift Him up in singing,\nLift the Savior up in prayer;\nHe, the glorious Redeemer,\nAll the sins of men did bear;\nYes, the young shall bow before Him,\nAnd the old their voices raise;\nAll the deaf shall hear hosannah;\nAnd the dumb shall shout His praise.",
+            "title": "Lift Him Up."
+        },
+        "263": {
+            "song": "1 There were ninety and nine that safely lay\nIn the shelter of the fold,\nBut one was out on the hills away,\nFar off from the gates of gold–\nAway on the mountains wild and bare,\nAway from the tender Shepherd’s care,\nAway from the tender Shepherd’s care.\n\n2 \"Lord, Thou hast here Thy ninety and nine;\nAre they not enough for Thee?\"\nBut the Shepherd made answer: \"This of mine\nHas wandered away from me;\nAnd although the road be rough and steep,\nI go to the desert to find my sheep,\nI go to the desert to find my sheep.\"\n\n3 But none of the ransomed ever knew\nHow deep were the waters crossed;\nNor how dark was the night the Lord passed thro'\nEre He found His sheep that was lost.\nOut in the desert He heard its cry–\nSo sick and helpless and ready to die;\nSo sick and helpless and ready to die.\n\n4 \"Lord, whence are those blood-drops all the way\nThat mark out the mountain’s track?\"\n\"They were shed for one who had gone astray\nEre the Shepherd could bring him back.\"\n\"Lord, whence are Thy hands so rent and torn?\"\n\"They are pierced tonight by many a thorn,\nThey are pierced tonight by many a thorn.\"\n\n5 And all through the mountains, thunder-riven,\nAnd up from the rocky steep,\nThere arose a glad cry to the gate of heaven,\n\"Rejoice! I have found my sheep!\"\nAnd the angels echoed around the throne,\n\"Rejoice, for the Lord brings back His own,\nRejoice, for the Lord brings back His own!\"\n",
+            "title": "The Ninety and Nine."
+        },
+        "264": {
+            "song": "1\nSomeone will enter the pearly gate\nBy and by, by and by,\nTaste of the glories that there await,\nShall you? Shall I? Shall you? Shall I?\nSomeone will travel the streets of gold,\nBeautiful visions will there behold,\nFeast on the pleasures so long foretold:\nShall you? Shall I? Shall you? Shall I?\n\n2\nSomeone will gladly his cross lay down\nBy and by, by and by,\nFaithful, approved, shall receive a crown,\nShall you? Shall I? Shall you? Shall I?\nSomeone the glorious King will see,\nEver from sorrow of earth be free,\nHappy with Him through eternity:\nShall you? Shall I? Shall you? Shall I?\n\n3\nSomeone will knock when the door is shut\nBy and by, by and by,\nHear a voice saying, “I know you not,”\nShall you? Shall I? Shall you? Shall I?\nSomeone will call and shall not be heard,\nVainly will strive when the door is barred,\nSomeone will fail of the saint’s reward:\nShall you? Shall I? Shall you? Shall I?\n\n4\nSomeone will sing the triumphant song\nBy and by, by and by,\nJoin in the praise with the blood-bought throng,\nShall you? Shall I? Shall you? Shall I?\nSomeone will greet on the golden shore\nLoved ones of earth who have gone before,\nSafe in the glory forevermore:\nShall you? Shall I? Shall you? Shall I?",
+            "title": "Shall You? Shall I?"
+        },
+        "265": {
+            "song": "I have a Saviour, he’s pleading in glory,\nA dear, loving Saviour, tho’ earth-friends be few;\nAnd now he is watching in tenderness o’er me,\nAnd O that my Saviour were your Saviour too.\n\n\n[CHORUS]\nFor you, I am praying , For you I am praying,\nFor you I am praying, I’m praying for you.\n\n\nI have a Father ; to me He has given,\nA hope for eternity, blessed and true;\nAnd soon He will call me to meet Him in heaven,\nBut oh that He’d let me bring with me, too.\n\n\nI have a robe; ‘tis resplendent in whiteness,\nAwaiting in glory my wondering view;\nOh, when I receive it, all shining in brightness,\nDear friend, could I see you receiving one, too.\n\n\nTo me has been given a peace like a river;\nA peace that the friends of this world never knew;\nAnd Christ is the Author, and Christ is the Giver,\nAnd O that his peace might be given to you.\n\n\nWhen Jesus has found you, tell others the story,\nThat my loving Saviour is your Saviour too;\nThen that your Saviour will bring them to glory,\nAnd prayer will be answered, ‘twas answered for you\n",
+            "title": "Your Saviour, Too."
+        },
+        "266": {
+            "song": "1 A ruler once came to Jesus by night\nTo ask Him the way of salvation and light;\nThe Master made answer in words true and plain,\n\"Ye must be born again.\"\n\nRefrain:\n\"Ye must be born again,\nYe must be born again;\nI verily, verily say unto thee,\nYe must be born again.\"\n\n2 Ye children of men, attend to the word\nSo solemnly uttered by Jesus the Lord;\nAnd let not this message to you be in vain,\n\"Ye must be born again.\" \n\n3 O ye who would enter that glorious rest,\nAnd sing with the ransomed the song of the blest;\nThe life everlasting if ye would obtain,\n\"Ye must be born again.\" \n\n4 A dear one in heaven thy heart yearns to see,\nAt the beautiful gate may be watching for thee;\nThen list to the note of this solemn refrain,\n\"Ye must be born again.\" \n",
+            "title": "Ye Must Be Born Again."
+        },
+        "267": {
+            "song": "1. All the darkness of the night has passed away,\nIt is morning in my heart;\nI am living in the sunlight of the day,\nIt is morning in my heart.\n\nIt is morning, it is morning in my heart;\nJesus made the gloomy shadows all depart.\nSongs of gladness now I sing,\nFor since Jesus is my King\nIt is morning, it is morning in my heart.\n\n2. I can hear the songbirds singing their refrain,\nIt is morning in my heart;\nAnd i know that life for me begins again,\nIt is morning in my heart.\n\n\n3. Christ has made the world a paradise to me,\nIt is morning in my heart;\nEvery duty in the light of love I see,\nIt is morning in my heart.\n\n\n4. Joy has come to dwell with me forever,\nIt is morning in my heart;\ni shall sing it when i reach the other shore,\nIt is morning in my heart.",
+            "title": "It is Morning in My Heart."
+        },
+        "268": {
+            "song": "1 There's life in a look at the sacred cross,\nJesus has said, \"Look unto me;\"\nEarth with its riches is only dross,\nBright treasures beyond in the cross I see.\n\nChorus:\n\nIn a look there's life for thee,\nIn a look at Calvary;\nBlessed thought, Salvation free,\nBy a look at Calvary.\n\n2 When first to the Saviour I raised my eyes,\nSweet was the smile that fell on me;\nOft as the clouds of temptation rise,\nA look at the cross still my strength shall be. \n\n3 I'll look to the cross ev'ry day and hour,\nTrusting the promise God has given;\nNone ever fall neath the tempter's pow'r,\nWho trust and obey in the strength of Heav'n. \n",
+            "title": "Life in a Look."
+        },
+        "269": {
+            "song": "1 Christ has for sin atonement made,\nWhat a wonderful Saviour!\nWe are redeemed! the price is paid!\nWhat a wonderful Saviour!\n\n\nWhat a wonderful Saviour is Jesus, my Jesus!\nWhat a wonderful Saviour is Jesus, my Lord!\n\n2 I praise Him for the cleansing blood,\nWhat a wonderful Saviour!\nThat reconciled my soul to God;\nWhat a wonderful Saviour! \n\n3 He cleansed my heart from all its sin,\nWhat a wonderful Saviour!\nAnd now He reigns and rules therein;\nWhat a wonderful Saviour! \n\n4 He gives me overcoming pow'r,\nWhat a wonderful Saviour!\nAnd triumph in each trying hour;\nWhat a wonderful Saviour! \n\n5 To Him I've given all my heart,\nWhat a wonderful Saviour!\nThe world shall never share a part;\nWhat a wonderful Saviour! \n",
+            "title": "What a Wonderful Saviour."
+        },
+        "270": {
+            "song": "1. My heart was distressed ’neath Jehovah’s dread frown,\nAnd low in the pit where my sins dragged me down;\nI cried to the Lord from the deep miry clay,\nWho tenderly brought me out to golden day.\n\nRefrain:\nHe brought me out of the miry clay,\nHe set my feet on the Rock to stay;\nHe puts a song in my soul today,\nA song of praise, hallelujah!\n\n2. He placed me upon the strong Rock by His side,\nMy steps were established and here I’ll abide;\nNo danger of falling while here I remain,\nBut stand by His grace until the crown I gain.\n\n3. He gave me a song, ’twas a new song of praise;\nBy day and by night its sweet notes I will raise;\nMy heart’s overflowing, I’m happy and free;\nI’ll praise my Redeemer, Who has rescued me.\n\n4. I’ll sing of His wonderful mercy to me,\nI’ll praise Him till all men His goodness shall see;\nI’ll sing of salvation at home and abroad,\nTill many shall hear the truth and trust in God.\n\n5. I’ll tell of the pit, with its gloom and despair,\nI’ll praise the dear Father, who answered my prayer;\nI’ll sing my new song, the glad story of love,\nThen join in the chorus with the saints above.\n",
+            "title": "He Brought Me Out."
+        },
+        "271": {
+            "song": "1\nA wonderful Savior is Jesus my Lord,\nA wonderful Savior to me,\nHe hideth my soul in the cleft of the rock,\nWhere rivers of pleasure I see.\n\nRefrain\nHe hideth my soul in the cleft of the rock\nThat shadows a dry, thirsty land;\nhe hideth my life in the depths of His love,\nAnd covers me there with His hand,\nAnd covers me there with His hand.\n\n2\nA wonderful Savior is Jesus my Lord,\nHe taketh my burden away,\nHe holdeth me up, and I shall not be moved,\nHe giveth me strength as my day.\n\n3\nWith numberless blessings each moment He crowns,\nAnd filled with His fullness divine,\nI sing in my rapture, Oh, Glory to God\nFor such a Redeemer as mine.\n\n4\nWhen clothed in His brightness, transported I rise\nTo meet Him in clouds of the sky,\nHis perfect salvation, His wonderful love,\nI’ll shout with the millions on high.",
+            "title": "He Hideth My Soul."
+        },
+        "272": {
+            "song": "1 Jesus has promised my Shepherd to be,\nThat's why I love Him so;\nAnd to the children He said, \"Come to Me,\"\nThat's why I love Him so.\n\nChorus:\nThat's why I love Him,\nThat's why I love Him,\nBecause He first loved me;\nWhen I'm tempted and tried,\nHe is close by my side,\nThat's why I love Him so.\n\n2 He the weak lambs to His bosom will take,\nThat's why I love Him so;\nNever will He for a moment forsake,\nThat's why I love Him so. \n\n3 He has in heaven prepared me a place,\nThat's why I love Him so;\nWhere I may dwell, by His wonderful grace,\nThat's why I love Him so. \n",
+            "title": "That‘s Why I Love Him."
+        },
+        "273": {
+            "song": "1\nJust when I need Him, Jesus is near,\nJust when I falter, just when I fear;\nReady to help me, ready to cheer,\nJust when I need Him most.\nJust when I need Him most,\nJust when I need Him most,\nJesus is near to comfort and cheer,\nJust when I need Him most.\n\n2\nJust when I need Him, Jesus is true,\nNever forsaking, all the way through,\nGiving for burdens pleasures anew,\nJust when I need Him most.\nJust when I need Him most,\nJust when I need Him most,\nJesus is near to comfort and cheer,\nJust when I need Him most.\n\n3\nJust when I need Him, Jesus is strong,\nBearing my burdens all the day long;\nFor all my sorrow giving a song,\nJust when I need Him most.\nJust when I need Him most,\nJust when I need Him most,\nJesus is near to comfort and cheer,\nJust when I need Him most.\n\n4\nJust when I need Him, He is my all,\nAnswering when upon Him I call;\nTenderly watching lest I should fall,\nJust when I need Him most.\nJust when I need Him most,\nJust when I need Him most,\nJesus is near to comfort and cheer,\nJust when I need Him most.",
+            "title": "Just When I Need Him."
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         

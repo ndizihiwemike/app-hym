@@ -64,13 +64,16 @@
   .go :hover{
     color: aqua;
   }
-  img{
+  /* img{
     width: 50px;
     margin-top: -4;
-  }
+  } */
   .btnM{
     display: block;
-    margin-top: 5px;
+    margin-top: 3px;
+    width: 450px;
+    height: 40px;
+    text-align: left;
 
   }
   .display{
@@ -79,19 +82,67 @@
   .hidden{
     display: none;
   }
+  .btn-me{
+    font-size: 20px;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 2vh;
+    align-items: center;
+
+  }
+  .src{
+    margin: 10px;
+    padding-left: 5px;
+    height: 25px;
+    width: 200px;
+    border: 2px solid black;
+    flex: 1;
+    border-radius: 2vh;
+  }
+  .back{
+    margin: 5px;
+    padding-left: 5px;
+    height: 20px;
+    right: 0;
+    border: 2px solid black;
+    flex: 1;
+    border-radius: 2vh;
+  }
+  .ba{
+    font-size: 20px;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    margin: 5px;
+    left: 0;
+    padding-left: 5px;
+    border: 2px solid black;
+    flex: 1;
+    border-radius: 2vh;
+  }
+  .tie{
+    text-align: center;
+  }
+  .no{
+    text-decoration: solid;
+  }
 </style>
 </head>
 <body>
   <div id="menu">
     <div id="songd">
   <div>
-    <img src="./sda logo.png" alt="">
+    <img src="./sda logo.png" alt="" width="50px">
     <h1>BRIDGE HYMNAL </h1>
   </div>
-  <div>
+  <!-- <div>
     <button id="mybutton" class="button" onclick=""><b>Adult</b></button>
     <button class="button" onclick=""><b>Children</b></button>
-  </div>
+  </div> -->
   <div id="output" ></div>
   <div>
     <button class="number-button" onclick="appendNumber(1)"><b>1</b></button>
@@ -109,9 +160,9 @@
     <button class="number-button" onclick="appendNumber(9)"><b>9</b></button>
   </div>
   <div>
-    <button id="menu" class="number-button" onclick="hideItems(3)"><b><img src="./menu-bar.jpg" alt=""></b></button>
+    <button id="menu" class="number-button" onclick="hideItems(3)"><b><img src="./menu-bar.jpg" alt="" width="35px"></b></button>
     <button class="number-button" onclick="appendNumber(0)">0</button>
-    <button class="number-button" onclick="clearOutput()"><b><img src="./clear-bar.jpeg" alt=""></b></button>
+    <button class="number-button" onclick="clearOutput()"><b><img src="./arrow-back-outline.svg" alt="" width="35px"></b></button>
   </div>
 <button class="go" onclick="openSong()"><b>YIMBA</b></button>
 </div>
@@ -121,8 +172,8 @@
 </div>
 
 <div id="songList" class="hidden">
-  <button onclick="hideItems(2)">menu</button><br>
-  <input type="text" placeholder="search..." id="searchBar" name="searchBar" margin="4px">
+  <button class="btn-me" onclick="hideItems(2)"><img src="./arrow-back-outline.svg" alt="" width="30px"></button><br>
+  <input class="src" type="text" placeholder="search..." id="searchBar" name="searchBar" margin="4px">
   <button class="btnM" onclick="loadSong(1)">1 Holy Holy Holly</button><button class="btnM" onclick="loadSong(2)">2 Revive Us Again</button>
   <button class="btnM" onclick="loadSong(3)">3 To God be the Glory</button><button class="btnM" onclick="loadSong(4)">4 All Hail the Power of Jesus‘ Name!</button><button class="btnM" onclick="loadSong(5)">5 O Worship the King</button>
   <button class="btnM" onclick="loadSong(6)">6 Before Jehovah‘s Awful Throne</button><button class="btnM" onclick="loadSong(7)">7 O God Our Help in Ages Past</button>
@@ -456,10 +507,10 @@
     function loadSong(num){
       hideItems(1)
       var menu = document.getElementById("songData");
-      menu.innerHTML = `<button onclick="hideItems(2)">menu</botton>`
-      menu.innerHTML += `<button onclick="hideItems(3)">Appendix</botton>`
-      menu.innerHTML += `<h4>${num} ${product[num].title}</h4>`
-      menu.innerHTML += `<pre>${product[num].song}</pre>` 
+      menu.innerHTML = `<button class="ba" onclick="hideItems(2)"><img src="./arrow-back-outline.svg" alt="" width="30px"></botton>`
+      menu.innerHTML += `<button class="back" onclick="hideItems(3)">Appendix</botton>`
+      menu.innerHTML += `<h4 class="tie">${num} ${product[num].title}</h4>`
+      menu.innerHTML += `<pre class="no">${product[num].song}</pre>` 
     }
   function rPage(){
     console.log('clicked')
@@ -487,10 +538,10 @@
       outputElement.textContent = ""
     }
 
-    document.getElementById('searchBar').addEventListener('keyup', (e)=>{
-    const searchData = e.target.value.toLowerCase();
-    const filterData = product.filter((song)=> {
-        // console.log(searchData)
+    searchInput.addEventListener('input', e=>{
+    const value = e.target.value.toLowerCase();
+    const filterData = product.filter((title)=> {
+        //  console.log(songList)
         return(
             i.title.toLowerCase().includes(searchData)
         )
