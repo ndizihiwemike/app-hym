@@ -104,10 +104,13 @@
     border-radius: 2vh;
   }
   .back{
+    font-size: 20px;
+    width: 40px;
+    height: 35px;
+    position: absolute;
     margin: 5px;
     padding-left: 5px;
-    height: 20px;
-    right: 0;
+    height: 30px;
     border: 2px solid black;
     flex: 1;
     border-radius: 2vh;
@@ -129,6 +132,13 @@
   }
   .no{
     text-decoration: solid;
+    text-align: left;
+    margin: 0 auto;
+    
+  }
+  .song-no{
+    text-align: center;
+    display: flex;
   }
 </style>
 </head>
@@ -508,9 +518,9 @@
       hideItems(1)
       var menu = document.getElementById("songData");
       menu.innerHTML = `<button class="ba" onclick="hideItems(2)"><img src="./arrow-back-outline.svg" alt="" width="30px"></botton>`
-      menu.innerHTML += `<button class="back" onclick="hideItems(3)">Appendix</botton>`
+      // menu.innerHTML += `<button class="back" onclick="hideItems(3)"><img scr="./menu-outline.svg"></botton>`
       menu.innerHTML += `<h4 class="tie">${num} ${product[num].title}</h4>`
-      menu.innerHTML += `<pre class="no">${product[num].song}</pre>` 
+      menu.innerHTML += `<div class="song-no"><pre class="no">${product[num].song}</pre></div>` 
     }
   function rPage(){
     console.log('clicked')
@@ -523,8 +533,10 @@
       outputElement.textContent += number;
     }
     function clearOutput() {
-      outputElement.textContent = "";
-    }
+  const currentText = outputElement.textContent;
+  outputElement.textContent = currentText.slice(0, -1); // Remove the last character
+}
+
     function openSong(){
       if(outputElement.textContent == ""){
         alert('Please enter a song number')
