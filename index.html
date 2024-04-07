@@ -467,20 +467,6 @@
 
 <script src="hymn.js"></script>
   <script>
-
-// const product = {
-    
-//     "1": {
-//     "song": "1 Holy, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!\n\n2 Holy, holy, holy! all the saints adore Thee,\ncasting down their golden crowns around the glassy sea;\ncherubim and seraphim, falling down before Thee,\nwhich wert and art and evermore shalt be.\n\n3 Holy, holy, holy! though the darkness hide Thee,\nthough the eye of sinful man Thy glory may not see;\nonly Thou art holy, there is none beside Thee,\nperfect in pow'r, in love, and purity.\n\n4 Holy, holy, holy! Lord God Almighty!\nAll Thy works shall praise Thy name, in earth and sky and sea;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!",
-//     "title": "Holy Holy Holly"
-//      },
-    
-//     "2": {
-//         "song": "1 We praise thee, O God, for the Son of thy love,\nfor Jesus who died, and is now gone above.\n\n\n\n    Hallelujah! Thine the glory, hallelujah! Amen!\n    Hallelujah! Thine the glory, revive us again.\n\n2 We praise thee, O God, for thy Spirit of light\nwho has shown us our Savior and scattered our night.\n \n3 We praise thee, O God, for the joy thou hast giv’n\nto thy saints in communion, these foretastes of heav’n.\n \n4 Revive us again, fill each heart with thy love.\nMay each soul be rekindled with fire from above. ",
-//         "title": "Revive Us Again"
-//     }
-//   }
-
   function menubar(){
       // console.log("hello mike!")
     var menu = document.getElementById("menu");
@@ -551,19 +537,6 @@
       loadSong(outputElement.textContent)
       outputElement.textContent = ""
     }
-
-    searchInput.addEventListener('input', e=>{
-    const value = e.target.value.toLowerCase();
-    const filterData = product.filter((title)=> {
-        //  console.log(songList)
-        return(
-            i.title.toLowerCase().includes(searchData)
-        )
-    })
-    displayitem(filterData)
-  });
-
-
 
 // const displayitem = (product)=> {
 //   document.getElementById('menu-bar').innerHTML=items((item)=>{
