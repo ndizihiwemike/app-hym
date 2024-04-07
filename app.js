@@ -8,6 +8,6 @@ app.use(express.static(path.join(__dirname,'./')));
 
 // app.use('/',router)
 
-app.listen(3000,() =>{
-    console.log(`working on port 3000`);
+app.listen(3050,() =>{
+    console.log(`working on port 3050`);
 })
