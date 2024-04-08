@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    color: white;
+    background-color: midnightblue;
+    margin-top: 8px;
+  }
+  h4{
+    text-align: left;
+    margin-left: 10px;
+  }
+  #output {
+    font-size: 24px;
+    margin: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .number-button {
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    border: 1px solid black;
+    flex: 1;
+    border-radius: 2vh;
+    cursor: pointer;
+  }
+  .button{
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    margin: -3.5px;
+    color: white;
+    border-radius: 3vh;
+    background-color: maroon;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .button :hover{
+    color: aqua;
+  }
+  .go{
+    font-size: 40px;
+    width: 240px;
+    height: 50px;
+    color: white;
+    margin: 5px;
+    border-radius: 5vh;
+    background-color: maroon;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-bottom: 5;
+  }
+  .go :hover{
+    color: aqua;
+  }
+  /* img{
+    width: 50px;
+    margin-top: -4;
+  } */
+  .btnM{
+    display: block;
+    margin-top: 2px;
+    width: 450px;
+    height: 40px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+  }
+  .display{
+    display: block;
+  }
+  .hidden{
+    display: none;
+  }
+  .btn-me{
+    font-size: 20px;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 2vh;
+    align-items: center;
+
+  }
+  .src{
+    margin: 10px;
+    padding-left: 5px;
+    height: 25px;
+    width: 200px;
+    border: 2px solid black;
+    flex: 1;
+    border-radius: 2vh;
+  }
+  .back{
+    font-size: 20px;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    margin: 5px;
+    padding-left: 5px;
+    height: 30px;
+    border: 2px solid black;
+    flex: 1;
+    border-radius: 2vh;
+  }
+  .ba{
+    font-size: 20px;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    margin: 2px;
+    left: 0;
+    padding-left: 5px;
+    border: 2px solid black;
+    flex: 1;
+    border-radius: 2vh;
+  }
+  .tie{
+    text-align: center;
+  }
+  .no{
+    text-decoration: solid;
+    text-align: left;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .song-no{
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+  }
