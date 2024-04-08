@@ -372,7 +372,7 @@
       hideItems(1)
       var menu = document.getElementById("songData");
       menu.innerHTML = `<button class="ba" onclick="hideItems(2)"><img src="./arrow-back-outline.svg" alt="" width="30px"></botton>`
-      // menu.innerHTML += `<button class="back" onclick="hideItems(3)"><img scr="./menu-outline.svg"></botton>`
+      menu.innerHTML += `<button class="back" onclick="hideItems(3)">menu</botton>`
       menu.innerHTML += `<h4 class="tie">${num} ${product[num].title}</h4>`
       menu.innerHTML += `<div class="song-no"><pre class="no">${product[num].song}</pre></div>` 
     }

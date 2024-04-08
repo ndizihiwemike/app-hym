@@ -21,9 +21,9 @@ body {
   }
   .number-button {
     font-size: 30px;
-    width: 70px;
-    height: 70px;
-    margin: 3px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
     border: 1px solid black;
     flex: 1;
     border-radius: 2vh;
@@ -100,11 +100,13 @@ body {
     border-radius: 2vh;
   }
   .back{
-    font-size: 20px;
+    /* font-size: 20px;
     width: 40px;
-    height: 35px;
+    height: 35px; */
     position: absolute;
-    margin: 5px;
+    margin: 10px;
+    top: 0;
+    right: 0;
     padding-left: 5px;
     height: 30px;
     border: 2px solid black;
@@ -118,6 +120,7 @@ body {
     position: absolute;
     margin: 2px;
     left: 0;
+    top: 0;
     padding-left: 5px;
     border: 2px solid black;
     flex: 1;
@@ -136,4 +139,5 @@ body {
     text-align: center;
     display: flex;
     font-size: 20px;
+    margin-bottom: 5px;
   }
