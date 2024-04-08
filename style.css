@@ -21,8 +21,8 @@ body {
   }
   .number-button {
     font-size: 30px;
-    width: 95px;
-    height: 95px;
+    width: 92px;
+    height: 92px;
     margin: 5px;
     border: 1px solid black;
     flex: 1;
@@ -45,8 +45,8 @@ body {
   }
   .go{
     font-size: 40px;
-    width: 240px;
-    height: 50px;
+    width: 280px;
+    height: 55px;
     color: white;
     margin: 5px;
     border-radius: 5vh;
@@ -69,6 +69,7 @@ body {
     height: 40px;
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 
 
   }
