@@ -1870,7 +1870,7 @@ const product = {
             "title": "Why Should I Worry or Fret."
         }
     ,
-        "268": {
+        "368": {
             "song": "Doh is C MRS. J.G. WILSON\n\n1. Sing the won-drous love of Jesus,\nSing His mer-cy and His grace; In\nthe man-sions bright and bless-ed\nHe‘ll pre-pare for us a place.\n\n\nWhen we all get to heav- en, What\na day of re-joic- ing that will be!\nWhen we all see Je-sus, We‘ll sing\nand shout the vic-to-ry\n\n2. While we walk the pil-grim path-\nway, clouds will o-ver spread the\nsky; But when trav‘ling days are\no-ver, Not a sha-dow not a sigh.\n\n3. Let us then be true and faith-ful\nTrust-ing serv-ng ev-ry day; Just\none glimpse of Him in glo-ry\nWill the toils of life re-pay.\n\n4. On-ward to the prize be-fore us;\nSoon His beau-ty we‘ll be-hold;\nSoon the pearl-y gates will o-pen,\nWe shall tread the streets of gold.",
             "title": "When We All Get to Heaven."
         }
