@@ -1,17 +1,17 @@
 const product = {
     
         "1": {
-        "song": "1 Holy, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!\n\n2 Holy, holy, holy! all the saints adore Thee,\ncasting down their golden crowns around the glassy sea;\ncherubim and seraphim, falling down before Thee,\nwhich wert and art and evermore shalt be.\n\n3 Holy, holy, holy! though the darkness hide Thee,\nthough the eye of sinful man Thy glory may not see;\nonly Thou art holy, there is none beside Thee,\nperfect in pow'r, in love, and purity.\n\n4 Holy, holy, holy! Lord God Almighty!\nAll Thy works shall praise Thy name, in earth and sky and sea;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!",
+        "song": "1 \nHoly, holy, holy! Lord God Almighty!\nEarly in the morning our song \nshall rise to Thee;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!\n\n2 Holy, holy, holy! all \nthe saints adore Thee,\ncasting down their golden crowns \naround the glassy sea;\ncherubim and seraphim, \nfalling down before Thee,\nwhich wert and art and \nevermore shalt be.\n\n3 Holy, holy, holy! though the \ndarkness hide Thee,\nthough the eye of sinful man \nThy glory may not see;\nonly Thou art holy, \nthere is none beside Thee,\nperfect in pow'r, in love, and purity.\n\n4 Holy, holy, holy! Lord God Almighty!\nAll Thy works shall praise Thy name, \nin earth and sky and sea;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!",
         "title": "Holy Holy Holly"
          },
         
         "2": {
-            "song": "1 We praise thee, O God, for the Son of thy love,\nfor Jesus who died, and is now gone above.\n\n\n\n    Hallelujah! Thine the glory, hallelujah! Amen!\n    Hallelujah! Thine the glory, revive us again.\n\n2 We praise thee, O God, for thy Spirit of light\nwho has shown us our Savior and scattered our night.\n \n3 We praise thee, O God, for the joy thou hast giv’n\nto thy saints in communion, these foretastes of heav’n.\n \n4 Revive us again, fill each heart with thy love.\nMay each soul be rekindled with fire from above. ",
+            "song": "1 We praise thee, O God, \nfor the Son of thy love,\nfor Jesus who died, \nand is now gone above.\n\nHallelujah! Thine the glory, \nhallelujah! Amen!\nHallelujah! Thine the glory, \nrevive us again.\n\n2 We praise thee, O God, \nfor thy Spirit of light\nwho has shown us our Savior \nand scattered our night.\n \n3 We praise thee, O God, \nfor the joy thou hast giv’n\nto thy saints in communion, \nthese foretastes of heav’n.\n \n4 Revive us again, \nfill each heart with thy love.\nMay each soul be rekindled with \nfire from above. ",
             "title": "Revive Us Again"
         }
     ,
         "3": {
-            "song": "1\nTo God be the glory, great things He hath done,\nSo loved He the world that He gave us His Son,\nWho yielded His life our redemption to win,\nAnd opened the life-gate that all may go in.\n\n  Praise the Lord, praise the Lord,\n  Let the earth hear His voice;\n  Praise the Lord, praise the Lord,\n  Let the people rejoice;\n  Oh, come to the Father, through Jesus the Son,\n  And give Him the glory; great things He hath done.\n\n2\nOh, perfect redemption, the purchase of blood,\nTo every believer the promise of God;\nThe vilest offender who truly believes,\nThat moment from Jesus a pardon receives.\n\n3\nGreat things He hath taught us, great things He hath done,\nAnd great our rejoicing through Jesus the Son;\nBut purer, and higher, and greater will be\nOur wonder, our transport when Jesus we see.",
+            "song": "1\nTo God be the glory, \ngreat things He hath done,\nSo loved He the world \nthat He gave us His Son,\nWho yielded His life our \nredemption to win,\nAnd opened the life-gate \nthat all may go in.\n\n  Praise the Lord, praise the Lord,\n  Let the earth hear His voice;\n  Praise the Lord, praise the Lord,\n  Let the people rejoice;\n  Oh, come to the Father, \nthrough Jesus the Son,\n  And give Him the glory; \ngreat things He hath done.\n\n2\nOh, perfect redemption, \nthe purchase of blood,\nTo every believer the promise of God;\nThe vilest offender who truly believes,\nThat moment from Jesus \na pardon receives.\n\n3\nGreat things He hath taught us, \ngreat things He hath done,\nAnd great our rejoicing \nthrough Jesus the Son;\nBut purer, and higher, \nand greater will be\nOur wonder, our transport \nwhen Jesus we see.",
             "title": " To God be the Glory"
         }
     ,
@@ -46,7 +46,7 @@ const product = {
         }
     ,
         "10": {
-            "song": " CH 291 Doh is E \nFlat SDAH 334 4 ASAHEL NETTLETON\n\n1. Come, Thou Fount of ev-ery\nbless-ing, Tune my heart to sing\nThy grace;\nStreams of mer-cy, nev-er ceas-\ning, Call for songs of loud-est\npraise.\nTeach me ev-er to a-dore Thee,\nMay I still Thy good-ness prove,\nWhile the hope of end-less glo-ry\nFills my heart with joy and love.\n\n2. Here I raise my Eb-en-e-zer,\nHith-er by Thy help I‘ve come,\nAnd I hope by Thy good pleas-ure\nSafe-ly to ar-rive at home. Je-sus\nsought me when a stranger, Wan-\ndering from the fold of God; He to\nrs-cue me from dan-eger In-ter-\nposed His pre-cious blood.\n\n3. O, to grace how great a debt-or,\nDai-ly I.m con-strained to be! Let\nThy good-ness, like a fet-ter, Bind\nme clos-er still to Thee. Prone to\nwan-der, Lord, I feel it, Prone to\nleave the God I love; Here‘s my\nheart – O, take and seal it; Seal it\nfor Thy courts a-bove",
+            "song": " CH 291 Doh is E \nFlat SDAH 334 4 ASAHEL\n\n1. Come, Thou Fount of ev-ery\nbless-ing, Tune my heart to sing\nThy grace;\nStreams of mer-cy, nev-er ceas-\ning, Call for songs of loud-est\npraise.\nTeach me ev-er to a-dore Thee,\nMay I still Thy good-ness prove,\nWhile the hope of end-less glo-ry\nFills my heart with joy and love.\n\n2. Here I raise my Eb-en-e-zer,\nHith-er by Thy help I‘ve come,\nAnd I hope by Thy good pleas-ure\nSafe-ly to ar-rive at home. Je-sus\nsought me when a stranger, Wan-\ndering from the fold of God; He to\nrs-cue me from dan-eger In-ter-\nposed His pre-cious blood.\n\n3. O, to grace how great a debt-or,\nDai-ly I.m con-strained to be! Let\nThy good-ness, like a fet-ter, Bind\nme clos-er still to Thee. Prone to\nwan-der, Lord, I feel it, Prone to\nleave the God I love; Here‘s my\nheart – O, take and seal it; Seal it\nfor Thy courts a-bove",
             "title": "Come Thou Fount"
         }
     ,
@@ -56,7 +56,7 @@ const product = {
         }
     ,
         "12": {
-            "song": "       Doh is A SDAH 694 \n4 LOUIS BOUGEOIS\n\n     Praise God, from who all bless-ings flow;\n     Praise Him, all creatures here be-low;. Praise\n     Him a-bove, ye heaven-ly host; Praise Fa-\n     ther, Son, and Ho-ly Ghost. Amen.",
+            "song": "       Doh is A SDAH 694 \n   4 LOUIS BOUGEOIS\n\n Praise God, from who all bless-ings flow;\n Praise Him, all creatures here be-low;.\nPraise Him a-bove, ye heaven-ly host; \nPraise Fa-ther, Son, and Ho-ly Ghost. \nAmen.",
             "title": "Praise Go From Whom"
         }
     ,
@@ -1576,7 +1576,7 @@ const product = {
         }
     ,
         "309": {
-            "song": "4 Doh is F Flat 4 E.E. HEWITT\n\n1. Let us sing a song that will cheer us by the\nway, In a lit-tle while we‘re go-ing home,\nFor the night will end in he ev-er last-ing\nday, In a lit-tle while we‘re go-ing home.\n\nIn a lit-tle while, In a lit-tle while, We\nshall cross the bil -low‘s foam; We shall\nmeet at last When the storm-y winds are\npast, In a lit-tle while we‘re go-ing home\n\n2. We will do the work that our hands may find\nto do, in a lit-tle while we‘re go-ing hme,\nAnd the grace of God will our dai-ly strength\nrenew, In a lit-tle while we‘re going home\n\n3. We will smooth the path for some wea-ry\nway-worn feet, In a lit-tle while we‘re go-\ning home, And may lov-ing hearts spread\na-round an influence sweet! In a lit-tle\nwhile we‘re go-ing home.\n\n4. There‘s a rest be-yond there‘s re-lief\nfrom ev-ry care, In a lit-tle while\nwe‘re go-ing home And no tears\nshall fall in that city bright and fair,\nIn a lit-tle while we‘re go-ing home.",
+            "song": "4 Doh is F Flat 4 E.E. HEWITT\n\n1. Let us sing a song that \nwill cheer us by the way, \nIn a lit-tle while we‘re go-ing home,\nFor the night will end in \nthe ev-er last-ing day, \nIn a lit-tle while we‘re go-ing home.\n\nIn a lit-tle while, In a lit-tle while, \nWe shall cross the bil -low‘s foam; \nWe shall meet at last When the storm-y winds are past, \nIn a lit-tle while we‘re go-ing home\n\n2. We will do the work that our \nhands may find to do, \nin a lit-tle while we‘re go-ing home,\nAnd the grace of God will our \ndai-ly strength renew, \nIn a lit-tle while we‘re going home\n\n3. We will smooth the path for some \nwea-ry way-worn feet, \nIn a lit-tle while we‘re go-ing home, \nAnd may lov-ing hearts spread\na-round an influence sweet! \nIn a lit-tle while we‘re go-ing home.\n\n4. There‘s a rest be-yond there‘s re-lief\n from ev-ry care, In a lit-tle while\n we‘re go-ing home And no tears\n shall fall in that city bright and fair,\nIn a lit-tle while we‘re go-ing home.",
             "title": "In a Little While we‘e Going Home"
         }
     ,

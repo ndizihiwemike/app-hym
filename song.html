@@ -23,6 +23,17 @@
             songs[num.value] = {song: song.value, title: tit.value}
             console.log(songs)
         }
+        document.onkeydown = (e) => {
+    if (e.key === 'F12' || ctrlShiftKey(e, 'I') || ctrlShiftKey(e, 'C') || ctrlShiftKey(e, 'J') || e.ctrlKey && e.key === 'U') {
+        e.preventDefault();
+    }
+};
+
+function ctrlShiftKey(e, keyCode) {
+    return e.ctrlKey && e.shiftKey && e.key === keyCode;
+}
+
     </script>
+    
 </body>
 </html>
