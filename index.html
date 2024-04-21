@@ -52,7 +52,7 @@
 
 <div id="songList" class="hidden">
   <button class="btn-me" onclick="hideItems(2)"><img src="./arrow-back-outline.svg" alt="" width="30px"></button><br>
-  <input class="src" type="text" placeholder="search..." id="searchBar" name="searchBar" margin="4px">
+  <input type="text" id="search-bar" placeholder="search" class="src">
   <button class="btnM" onclick="loadSong(1)">1 Holy Holy Holly</button><button class="btnM" onclick="loadSong(2)">2 Revive Us Again</button>
   <button class="btnM" onclick="loadSong(3)">3 To God be the Glory</button><button class="btnM" onclick="loadSong(4)">4 All Hail the Power of Jesus‘ Name!</button><button class="btnM" onclick="loadSong(5)">5 O Worship the King</button>
   <button class="btnM" onclick="loadSong(6)">6 Before Jehovah‘s Awful Throne</button><button class="btnM" onclick="loadSong(7)">7 O God Our Help in Ages Past</button>
@@ -341,9 +341,30 @@
     for(i in product){
       // menu.innerHTML += `<h4>${i} ${product[i].title}</h4>`
       menu.innerHTML += `<button class="btnM" onclick="loadSong(${i})">${i} ${product[i].title}</button>`
+    }
+    }
+const searchBar = document.getElementById("search-bar");
+const songList = document.getElementById("songList");
 
+// Function to perform the search
+function searchItems() {
+  const items = songList.querySelectorAll(".btnM"); // Corrected selector
+
+  for (let item of items) {
+    const itemName = item.textContent.toLowerCase();
+    const doesMatch = itemName.includes(searchBar.value.toLowerCase()); // Read user input
+
+    if (doesMatch) {
+      item.style.display = "block";
+    } else {
+      item.style.display = "none";
     }
-    }
+  }
+}
+
+// Event listener for live search
+searchBar.addEventListener("keyup", searchItems);
+
     function hideItems(syn){
       var songD = document.getElementById('songData')
       var menuD = document.getElementById('menu')
@@ -374,7 +395,7 @@
       var menu = document.getElementById("songData");
       menu.innerHTML = `<button class="ba" onclick="hideItems(2)"><img src="./arrow-back-outline.svg" alt="" width="30px"></botton>`
       menu.innerHTML += `<button class="back" onclick="hideItems(3)">menu</botton>`
-      menu.innerHTML += `<h4 class="tie">${num} ${product[num].title}</h4>`
+      menu.innerHTML += `<h4 id="tie" class="tie">${num} ${product[num].title}</h4>`
       menu.innerHTML += `<div class="song-no"><pre class="no">${product[num].song}</pre></div>` 
     }
   function rPage(){
@@ -404,34 +425,6 @@
       loadSong(outputElement.textContent)
       outputElement.textContent = ""
     }
-    // function SearchBar() {
-    // // Get the search bar element by its ID
-    // const searchBar = document.getElementById('searchBar');
-
-    // // Get the ordered list elements
-    // const orderedList = Array.from(document.querySelectorAll('btnM'));
-
-    // Add an event listener for the "Enter" key press
-//     searchBar.addEventListener('keydown', (event) => {
-//         if (event.key === 'Enter') {
-//             const query = searchBar.value.toLowerCase();
-
-//             // Filter the list items based on the search query
-//             orderedList.forEach((element) => {
-//                 const elementText = element.btnM.toLowerCase();
-//                 const matchesQuery =
-//                     elementText === query ||
-//                     elementText.startsWith(query) ||
-//                     elementText.includes(query);
-
-//                 // Hide elements that don't match the query
-//                 if (!matchesQuery) {
-//                     element.style.display = 'none';
-//                 }
-//             });
-//         }
-//     });
-// }
 
 
 // const displayitem = (product)=> {
