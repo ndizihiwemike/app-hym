@@ -617,7 +617,7 @@ const product = {
     ,
         "120": {
             "song": "6 Doh is F SDAH 312 \n8 W.H Doane\n\n1. Je-sus keep me near the cross;\nThere a pre-cious foun-tain Free\nto all, a heal-ing stream Flows\nfrom Cal-vary‘s moun-tain.\n\nIn the cross, In the cross, Be my\nglo-ry ev-er,\nTill my rap-tured soul shall find\nrest be- yond the riv-er.\n\n2. Near the cross, a trembling soul,\nLove and mer-cy found me\nThere the bright and Morn-ing\nstar Sheds its beams a-round me.\n\n3. Near the cross! O Lamb of God,\nBring its scenes be-fore me,\nHelp me walk from day to day,\nWith its shad-ows o-er me.\n\n4. Near the cross I‘ll watch and\nwait, Hop-ing trus-ting ev-er\nTill I reach the gold-en strand\nJust be-yond the riv-er.",
-            "title": "esus Keep Me Near the Cross."
+            "title": "Jesus Keep Me Near the Cross."
         }
     ,
         "121": {
@@ -1667,7 +1667,7 @@ const product = {
     ,
         "327": {
             "song": " 4 Doh is C\n 4 ROBERT LOWRY\n\n1. Low in the grave He lay – Je-sus\nmy sav-iour! Wait-ing the\ncoming day-Je-sus, my Lord!\n\nUp from the grace He a –rose,\nWith a-might-y tri-ump o‘er His\nfoes; He a-rose a Vic-tor from\nthe dark domain, And He lives\nfor-eve-er with His saints to\nreign, He a-rose, He a-rose, Hl-\nle-lu-jah! Christ a-rose!\n\n2. Vain-ly they watch His bed – Je-\nsus my Saviour! Vain-ly they\nseal the dead – Je-sus, my Lord!\n\n3. Death cannot keep his prey- Je-\nsus, my sav-iour! He tore the\nbars a-way – Je-sus my Lord!.",
-            "title": ""
+            "title": "Christ Arose"
         }
     ,
         "328": {
@@ -2207,7 +2207,7 @@ const product = {
     ,
         "435": {
             "song": "4 Doh is G \n4 DAID HUGH JONES\n\nIt‘s me, It‘s me O Lord, stand-ing\nin the need of prayer; It‘s me,\nit‘s me O Lord stand-ing in the\nneed of prayer.\n\n\nNot my moth-er nor my fa -ther,\nbut its me O Lord, stand-ing in the\nneed of prayer; Not my bro-ther\nnor my sis-ter but its me O Lord,\nstand-ing in the need of prayer.",
-            "title": "t‘s Me, O Lord"
+            "title": "It‘s Me, O Lord"
         }
     ,
         "436": {
@@ -2397,7 +2397,7 @@ const product = {
     ,
         "473": {
             "song": "4 Doh is A Flat \n4 ADAM GEIBEL\n\n1. Standing like a light-house on\nthe shores of time, Looking o‘er\nthe waves of darkness, sin and\ncrime, Open up your windows\nthere‘s work sublime; Let the\ngospel light shine out;\n\n\nLet the gospel light shine out,\nLet the gospel light shine out\nWhile your lamp is burning keep\nthe windows clean, Let the\ngospel light shine out.\n\n2. There are hu-man ship-wrecks\nly-ing all a-round, O what moral\ndark-ness ev‘ry where is found!\nWarn some other vessels off\nfrom dang‘rous ground; Let the\ngospel light shine out.\n\n3. Do not let the bush-el co-ver up\nyour light, Keep your lamp in\norder trimmed and burning\nbright; Try to be a bless-ing\nbrighten up the night; Let the\ngospel light shine out,\n\n4. Try to live for Je-sus tilll tis life\nis o‘er, For along this pathway\nyou will pass no more,\nTill He bids you welcome on the\no-ther shore, Let the gospel light\nshine out.",
-            "title": "8Let the Gospel Light Shine Out"
+            "title": "Let the Gospel Light Shine Out"
         }
     ,
         "474": {
@@ -2682,7 +2682,7 @@ const product = {
     ,
         "530": {
             "song": "6 Doh is E Flat \n8 I.H MEREDITH\n\n1. A glo-rious in-vi-tation Now\ncalls you to the feast;\nEach soul is now in-vit-ed The\ngreat-es and the least,\nCome all ye heav-y bur-dened,\nWith sorrow or with care, To-\nday you are in- vi-ted, Your bur-\ndens Christ will bear.\n\n\nThe Spirit says come, The\nBridegroom says come Let him that\nheareth say come, Let him that\nthirsteth come And whosoever will let\nhim take of the water of life freely.\n\n2. That bless-ed in-vi-tation! Oh\nhear to-day and heed;\nThe spir-it it now is call-ing\nWhy long-er dwell in need\nThy soul to-day is faint-ing For\nChrist the liv-ing bread; Ac-cept\nhe in -vi-tation, Come while the\nfeast is spread.\n\n3. Re- peat the in-vi-ta -tion! Pass on\nthe bless -ed news; Let none for-\nsake His mer-cy Or par-don now\nre-fuse, ‗Tis Je-sus that is call-ing\nAll things are ready come,\nThe Spi-rit will dire-ct you, The\nBride will wel-come home.",
-            "title": "4The Spirit and bride say Come"
+            "title": "The Spirit and bride say Come"
         }
     ,
         "531": {
@@ -2762,7 +2762,7 @@ const product = {
     ,
         "546": {
             "song": "1. O worship the Lord in the\nbeauty of holiness, Bow down\nbefore Him , His glory proclaim;\nWith gold of obedience, and\nincense of lowliness,\nKnnel and adore Him; the Lord\nis His name.\n\n2. Low at His feet lay thy burden\nof carefulness; High on His heart\nHe will bear it for thee, Comfort\nthy sorrows, and answer thy\nprayerfulness, Guiding thy steps\nas may best for thee be.\n\n3. Fear not to enter his courts in the\nslenderness Of the poor wealth\nthou wouldst reckon on as thine\nTruth in its beauty and love in its\ntenderness,\nThese are the offerings to lay on\nHis shrine\n\n4. These though we bring them in\ntrembling and fearfulness,\nHe will accept for the Name that\nis dear; Mornings of joy give for\nevenings of tearfulness,\nTrust for oue trembling, and\nhope for our fear.",
-            "title": "n the Beauty of Holiness"
+            "title": "In the Beauty of Holiness"
         }
     ,
         "547": {
@@ -2937,12 +2937,12 @@ const product = {
     ,
         "581": {
             "song": "1. I stand a-mazed in the presence\nof Je-sus the Nazarene,\nAnd wonder how He could love\nme A sinner condem‘d unclean\n\n\nHow marvellous! How wonderful\nAnd my song shall ever be; How\nmarvelous! How wonderful Is my\nSaviour‘s love for me!\n\n2. For me it was in the garden He\npray‘d ―Not My will but Thine,‖\nHe had no tears for His own\ngriefs, But sweat drops of blood\nfor mine.\n\n3. In pity a-ngels beheld Him, And\ncame from the world of light; To\ncomfort Him in the sor-rows, He\nbore for my soul that night.\n\n4. He took my sins and my sor-rows,\nHe made them His very own; He\nbore the burden to Cal-vary, And\nsuffer‘d and died alone.",
-            "title": "How Marvellous! How wonderful"
+            "title": " How Marvellous! How wonderful"
         }
     ,
         "582": {
             "song": "1. If the world from you with hold,\nAll its silver and its gold And\nyou have to get alone with\nmeager fare Just remember in\nHis word How he feeds the little\nbird, Take your burden to the\nLord and leave it there\n\n\nLeave it there, Leave it there\nTake your burden to the lord\nand leave it there; If you trust\nand never doubt, He will surely\nbring you out Take your burden\nto the Lord and leave it there.\n\n2. If your body suffers pain, And\nyour health you can‘t regain,\nAnd your soul is almost sinking\nin despair, Jesus knows the pain\nyou feel! He can save and He\ncan heal, Take your burden to\nthe Lord and leave it there.\n\n3. When your enemies assail, And\nyour heart begins to fail, Don‘t\nforget that God in heaven\nanswers prayer\nHe will make a way for your\nsafely through\nTake your burden to the Lord\nand leave it there.\n\n4. When your youthful days are\ngone, And old age is stealing on,\nAnd your body bends beneath\nthe load of care;\nHe will never leave you then,\nHe‘ll go with you till the end,\nTake your burden to the Lord\nand leave it there.",
-            "title": "Leave it Thee"
+            "title": " Leave it Thee"
         }
     ,
         "583": {
@@ -2957,12 +2957,12 @@ const product = {
     ,
         "585": {
             "song": "4 Doh is F 4 MR & MRS WILBUR WILSON\n1. I can hear… my sav-ir call-ing\nI can hear my Sav-iour\ncall-ing hear Him call-ing,\nI can hear… My Savior call-ing\nI can hear my Savior call-ing\ngently call-ing; I can hear my\nsav-ior call-ing I can hear my sav-\nior call-ing to me call-ing Take\nthy cross and fol-low, follow me\nTake thy cross and foll- ow,\nfollow dai-ly fol-low, fol-low me.\n\n\n‗Tis the old-time re-li-gion,\n‗tis the old time re-li-gion,\n‗Tis the old-time re-li-gion,\n‗tis the old time re-li-gion,\n‗Tis the old-time re-ligion,\ngood e-nough for me. ‗Tis the old\ntime re-li-gion and it‘s good e-\nnough for me When I rise to\nbright -er worlds un-known,\nWhen I rise to worlds un-known\n\nI‘ll be -hold my Sav-ior on His\nthrone I‘ll be- hold Him -on His\nthrone, O hap -py day, O hap-py\nday when Jesus washed my sins a-\nway; O hap-py day O hap -py day\nWhen Jesus washed my sins away;\nO hap-py day, e-ter- nal day\nO hap-py e-ter-nal day, When I\nshall go with Him to stay.\nWhen I shall go with Him to stay,\nin glory stay\n\n2. I‘ll go with Him through the\ngarden ............\n\n3. I‘ll go with Him through the\njudgement…......\n\n4. He will give me grace and\nglory……\n\n5.Where He leads me I will fol-\nlow………",
-            "title": ". I Can Hear my Savior Calling"
+            "title": " I Can Hear my Savior Calling"
         }
     ,
         "586": {
             "song": "O friend do you love Jesus\nOh yes I love Jesus\nAre you sure you love Jesus I‘m\nsure I love Jesus Then why do\nyou love Jesus Here‘s why I\nlove Jesus Because He first\nloved me That‘s the reason we\nall ought to love Him;\n\n\nO how I love Jesus , O how I\nlove Jesus , O how I love Jesus\nBecause He first loved me.",
-            "title": "Do You Love Jesus?"
+            "title": " Do You Love Jesus?"
         }
     ,
         "587": {
@@ -3162,7 +3162,7 @@ const product = {
     ,
         "626": {
             "song": "1. It may be in the valley, where\ncountless dangers hide,\nIt may be in the sun-shine that I in\npeace a-bide; But this one thing I\nknow if it be dark or fair If Jesus\nis with me I‘ll go anywhere!\n\n\nIf Jesus goes with me, I‘ll go\nanywhere Tis heaven to me,\nWhere‘er I may be If He is\nthere! I count it a privilege here\nHis cross to bear If Jesus goes\nwith me I‘ll go any -where!\n\n2. It may be I must carry the\nblessed word of life across the\nburning deserts to those in sinful\nstrife; And tho‘it be my lot to\nbear my colours there; If Jesus s\nwith me I‘ll go anywhere",
-            "title": "If Jesus Goes With Me."
+            "title": " If Jesus Goes With Me."
         }
     ,
         "626": {
@@ -3172,12 +3172,12 @@ const product = {
     ,
         "627": {
             "song": "Lift up Jesus, Lift up Jesus, Lift\nup Jesus, Just lift him up,\nLift up Jesus, Just lift up Jesus,\nLift Him up for the whole wide\nworld to see.\n\nHe says if I be lifted up I‘ll draw\nall men to me x 3\nSo lift Him up, Lift Him up Oh\nlift Him up.",
-            "title": ".Life Up Jesus"
+            "title": " Life Up Jesus"
         }
     ,
         "628": {
             "song": "Rolling down to Jordan, Rolling\ndown to Jordan, Rolling down to\nJordan Alleluiah x2\n\n\nOh Sister do you want to go, Oh\nsister do you want to go,\nOh sister do you want to go\nRolling down to Jordan\nHalleluiah.\n\nOh Brother do you want to\ngo……………………………",
-            "title": "Rolling Down to Jordan"
+            "title": " Rolling Down to Jordan"
         }
     ,
         "629": {
