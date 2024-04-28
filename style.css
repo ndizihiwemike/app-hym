@@ -145,7 +145,7 @@ body {
     text-decoration: solid;
     text-align: left;
     margin: 0 auto;
-    border-top: 1px solid black;
+    border-top: 3vh solid black;
     border-bottom: 10vh solid black;
     border-radius: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
