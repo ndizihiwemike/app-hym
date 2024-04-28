@@ -111,7 +111,9 @@ body {
     right: 0;
     padding-left: 5px;
     height: 30px;
-    border: 2px solid black;
+    border: 1px solid aqua;
+    background-color: aqua;
+
     flex: 1;
     border-radius: 2vh;
   }
@@ -122,19 +124,29 @@ body {
     position: absolute;
     margin: 2px;
     left: 0;
-    top: 0;
+    top: 10px;
     padding-left: 5px;
-    border: 2px solid black;
+    border: 2px solid aqua;
+    background-color: aqua;
     flex: 1;
     border-radius: 2vh;
   }
   .tie{
     text-align: center;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 35px;
+    border-radius: 10px;
+    padding-top: 20px;
+
+    
   }
   .no{
     text-decoration: solid;
     text-align: left;
     margin: 0 auto;
+    border-top: 1px solid black;
+    border-radius: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .song-no{
