@@ -117,6 +117,9 @@ body {
     flex: 1;
     border-radius: 2vh;
   }
+  .back:hover{
+    background-color: #333;
+  }
   .ba{
     font-size: 20px;
     width: 40px;
@@ -138,8 +141,9 @@ body {
     height: 35px;
     border-radius: 10px;
     padding-top: 20px;
-
-    
+  }
+  .ba:hover{
+    background-color: #333;
   }
   .no{
     text-decoration: solid;
