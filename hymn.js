@@ -2024,6 +2024,11 @@ const product = {
             "song": "Doh is D \n\n1. I know not why God‘s wond-rous\ngrace to me He hath made known,\nNor why , un-wor- thy, Christ in\nlove re-deemed for His own.\n\n\nBut ―I know whom I have believed,\nand am per-suad-ed that He is able\nTo keep that which I‘ve com- mit-\nted Un-to Him a-gainst that day.\n\n2. I know not how this sav-ing faith\nto me He did im -part,\nNor how be-live-ing in His word\nwrought peace with-in my hear.\n\n3. I know not how the Spir- it it\nmoves, Con- vinc-ing men of sin,\nRe-veal-ing Je-sus through the\nword, Cre-at -ing faith in Him.\n\n4. I know not when my Lord may\ncome, AT night or noon-day\nfair, Nor if I walk the vale with\nHim or meet Him in the air.",
             "title": "I know Whom I have Believed"
         }
+        ,
+            "399": {
+                "song": "1. My faith has found a rest-ing\nplace, Not in a man-made\ncreed; I trust the ev-er liv-ing\nOne. That He for me will plead.\n\nchorus\nI need no oth-er ev-i-dence , I\nneed no oth-er plea;\nIt is e-nough that Je-sus died\nAnd rose a-gain for me.\n\n2. E-nough for me that Je-sus saves.\nThis ends my fear and doubt;\nA sin-ful soul I come to Him He\nwill not cast me out.\n\n3. My soul is rest-ing on the Word,\nThe liv-ing Word of God; Sal-\nvation in my Sav-iour‘s name,\nSal-va-tion through His blood.\n\n4. The great Phy-si-cian heals the\nsick, The lost He came to save;\nFor me His pre-cious blood He\nshed, For me His life He gave.",
+                "title": "My Faith Has Found a Resting Place"
+            }
     ,
         "400": {
             "song": "4 Doh is A Flat \n4 WILLIAM J. GATHER\n\n1. God sent His Son they called\nHim Je-sus, He came to love\nheal and for-give;\nHe lived and died to buy my par-\ndon, An emp-ty grace is there to\nprove my sav-iour lives,\n\n\nBe-cause He lives I can face to-\nmor-row, Be -cause He lives all\nfear is gone; Be-cause I know He\nholds the fu-ture, And life is worth\nthe liv-ing just be-cause he lives\n\n2. How sweet to hold a new-born\nbaby and feel the pride, and joy\nHe gives;\nBut great-er still the calm assur-\nance, This child can face uncer-\ntain days be-cause he lives.\n\n3. And then one day I‘ll cross the\nriver, I‘ll fight life‘s fi-nal war\nwith pain;\nAnd then as death gives way to\nvic-to-ry, I‘ll see the lights of\nglo-ry and I‘ll know He lives.",
