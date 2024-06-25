@@ -1026,7 +1026,7 @@ const product = {
         }
     ,
         "199": {
-            "song": "2 Doh is A Flat SDAH 579 4 F.E. BELDEN\n\n1.‘Tis love that makes us hap-py,\n‗Tis love that smooths the way; It\nhelps us mind, it makes us kind,\nTo oth-ers ev-ery day. God is\nlove; wee‘re His lit-tle chil-dren;\n\nGod is love; we would be like Him\n‗Tis love that makes us hap-py,\n‗Tis love that smooths the way; It\nhelps us ―mind, it makes us kind\nTo others ev-ery day.\n\n2. This world is full of sor-row, Of\nsick-ness, death and sin;\nWith lov-ing heart we‘ll do our\npart, And try some soul to win.\n\n3. And when this life is o-ver, And\nwe are called a-bove Our song\nshall be, e-ter-nal-ly, of Je-sus\nand His love.",
+            "song": "2 Doh is A Flat SDAH 579 4 F.E. BELDEN\n\n1.‘Tis love that makes us hap-py,\n‗Tis love that smooths the way; It\nhelps us mind, it makes us kind,\nTo oth-ers ev-ery day.\n\n God is love;\n wee‘re His lit-tle chil-dren;\nGod is love; we would be like Him\n‗Tis love that makes us hap-py,\n‗Tis love that smooths the way; It\nhelps us ―mind, it makes us kind\nTo others ev-ery day.\n\n2. This world is full of sor-row, Of\nsick-ness, death and sin;\nWith lov-ing heart we‘ll do our\npart, And try some soul to win.\n\n3. And when this life is o-ver, And\nwe are called a-bove Our song\nshall be, e-ter-nal-ly, of Je-sus\nand His love.",
             "title": "‗Tis Love That makes Us Happy."
         }
     ,
